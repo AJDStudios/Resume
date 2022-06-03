@@ -22,9 +22,39 @@ body {
 	background-color: #131313;
   }
 
-/*  .open {
+.open {
+    min-height: 30vh;
+    background: #2F4F4F;
+}
 
-}*/
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+    font-family: Hack, sans-serif;
+    text-transform: uppercase;
+	padding: 4rem;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 5s linear infinite;
+    position: relative;
+  }
+
+
+@keyframes shine {
+  0% {
+	background-position-x: -500%;
+  }
+  100% {
+	background-position-x: 500%;
+  }
+}
+
 
 .scroller {
 	color: dimgray;
@@ -66,6 +96,15 @@ body {
 
 /* tablet size-ish*/
 @media screen and (max-width: 1150px) {
+	.open {
+		max-height: 20px;
+	}
+	
+	.open h1 {
+		padding: 2rem;
+		font-size: 15px;
+	}
+
 	.nav-links {
 		min-width: 30%;
 		width: 60%;
@@ -77,15 +116,24 @@ body {
 @media screen and (max-width: 768px) {
 /* I don't understand why "html" was needed here - look it up*/	
 	html, body{
-		/*overflow-x: hidden; - this was breaking it for some reason.*/
+		overflow-x: clip; 
 		position: relative;
 	} 
+	
+	.open {
+		max-height: 15px;
+	}
+
+	.open h1 {
+		padding: 1rem;
+		font-size: 15px;
+	}
 	
 	.nav-links{
 		position: absolute;
 		right: 5px;
-		height: 92vh;
-		top: 8vh;
+		height: 50vh;
+		top: 33.5vh;
 		background-color: #DCDCDC;
 		display: flex; 
 		flex-direction: column;
