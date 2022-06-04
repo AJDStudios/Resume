@@ -27,7 +27,7 @@ body {
     background: #2F4F4F;
 }
 
-h1 {
+.open h1 {
     font-weight: 700;
     text-align: center;
     font-size: 30px;
