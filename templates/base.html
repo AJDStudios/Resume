@@ -4,8 +4,10 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>{% block title %} {% endblock %}</title>
-    <!--<link rel="stylesheet" bootstrap-->
+    <!-- I'd rather do it myself - but just in case for now.
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css')}}">
+    <script src="https://kit.fontawesome.com/13ad637b1d.js" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Gentium+Plus&family=Nunito:wght@200&family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
@@ -42,17 +44,16 @@
 			</div>
 		</nav>
 	</div>
-    {% block content %}
+    {% block about %}
     {% endblock %}
 
-	<script src="{{ url_for('static', filename='app.js')}}"></script>
-<!--		<section class="links">
+	<script 
+        type="text/javascript" 
+        src="{{ url_for('static', filename='app.js')}}">
+    </script>
+<!--<section class="links">
 
 		</section>
-	</div>
-	<div class="about">
-		<h3>about me</h3>
-		<img src="https://cdn.discordapp.com/attachments/767118290619203625/981548057588015174/profile_darker.jpg" alt="profile" class="profile">
 	</div>
 	<div class="skills">
 		<h4>skills and software.</h4>
@@ -65,11 +66,18 @@
 		<section class="contacts">
 			<img class="animated-gif "src="https://cdn.discordapp.com/attachments/767118290619203625/981160584240304169/Marching_Aden.gif" alt="RPG Maker">
 		</section>
-		<section class=darktoggle> </section>
+		<section class=darktoggle>
+            <div>
+                <input type="checkbox" class="checkbox" id="light" />
+                <label class="label" for="light">
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                    <div class="ball"></div>
+                </label>
+            </div>    
+        </section>
 		<section class=language> </section>
 
 	</footer>-->
-
-	
 </body>
 </html>

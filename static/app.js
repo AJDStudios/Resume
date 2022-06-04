@@ -28,4 +28,10 @@ const navSlide = () => {
 navSlide();
 //}
 
+//// dark/light toggle
+//const light = document.getElementById('light');
+
+//light.addEventListener('change', () => {
+//	document.body.classList.toggle('light');
+//});
 
