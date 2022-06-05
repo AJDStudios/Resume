@@ -20,18 +20,23 @@ nav {
 
 body { 
 	background-color: #131313;
+	width: 100%;
+	
   }
-/* come back to stage 2*/
 .open {
     min-height: 30vh;
     background: #2F4F4F;
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
 }
 
 .open h1 {
-    font-weight: 700;
+	font-weight: 700;
     text-align: center;
-    font-size: 30px;
-    font-family: Hack, sans-serif;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
 	padding: 4rem;
     background: linear-gradient(90deg, #000, #fff, #000);
@@ -41,8 +46,7 @@ body {
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 5s linear infinite;
-    position: relative;
+    animation: shine 12s linear infinite;
   }
 
 
@@ -55,6 +59,43 @@ body {
   }
 }
 
+.openp {
+	min-height: 30vh;
+   	background: #2F4F4F;
+   	vertical-align: top;
+   	display: inline-block;
+   	text-align: center;
+   	width: 100%;
+}
+
+.openp h1 {
+   font-weight: 700;
+   text-align: center;
+   font-size: 32px;
+   font-family: 'Nunito', sans-serif;
+   text-transform: uppercase;
+   padding: 2rem;
+   letter-spacing: 3px;
+   color: dimgray;
+}
+
+.openportfolio::after {
+   content: "";
+   width: 1px;
+   height: 3px;
+   right: 1px;
+   border-right: 1px solid dimgray; 
+   animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+   0%{
+	   opacity: 0;
+   }
+   100%{
+	   opacity: 1;
+   }				
+}
 
 .scroller {
 	color: dimgray;
@@ -97,46 +138,59 @@ body {
 .aboutme {
 	text-align: center;
 	letter-spacing: 3px;
-	padding: 2rem;
+	font-size: 36px;
+	padding: 5rem;
 	text-transform: uppercase;
+	text-decoration: underline;
 	color: dimgrey; 
 }
 
 .about {
-	min-height: 30vh;
 	display: flex;
-	justify-content: space-around;
-	width: 100% auto;
-	letter-spacing: 3px;
-	color: dimgrey;
+	flex-basis: 40%;
+	align-items: center;
+	justify-content: center;
 }
 
-.about img {
-	margin-left: 15px;
-	margin-top: 15px;
-	width: 80%;
-	max-width: 250px;
-	height: auto;  
+.profile {
+	max-width: 30%;
+	Width: 18%;
+	Height: auto;
+	margin: 4rem;
 	border-radius: 85%;
 	border: 5px solid dimgrey;
-	width: 33%;
+	margin-top: 25px;
+	
 }
 
-/*.about p {
-	width :75%;
-	letter-spacing: 3px;
+.abouttext {
+	Width: 70%;
+	font-size: 30px;
+	padding-left: 20px;
+	text-align: justify;
 	color: dimgrey;
-}*/
+	margin-right: 4px;
+	letter-spacing: 3px;
+}
 
 /* tablet size-ish*/
-@media screen and (min-width: 912) and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
 	.open {
-		max-height: 20px;
+		max-height: 15px;
 	}
 	
 	.open h1 {
-		padding: 2rem;
-		font-size: 15px;
+		padding: 1.5rem;
+		font-size: 20px;
+	}
+
+	.openp {
+		max-height: 15px;
+	}
+	
+	.openp h1 {
+		padding: 1.5rem;
+		font-size: 32px;
 	}
 
 	.nav-links {
@@ -145,20 +199,18 @@ body {
 		margin: 10px;
 	}
 
-	.about img {
-		margin-left: 5px;
-		margin-top: 10px;
-		width: 65%;
-		max-width: 150px;
-		height: auto;  
-		border-radius: 85%;
-		border: 5px solid dimgrey;
+	.abouttext {
+		width: 60%;
+		font-size: 20px;
 	}
 }
 
+/* need a third cut-off for mini-tablet profile
+@media screen and (max-width: 768px) {}*/
+
+
 /* cut-off for mobile */
 @media screen and (max-width: 768px) {
-/* I don't understand why "html" was needed here - look it up*/	
 	html, body{
 		overflow-x: clip; 
 		position: relative;
@@ -169,7 +221,7 @@ body {
 	}
 
 	.open h1 {
-		padding: 1rem;
+		padding: 2.5rem;
 		font-size: 15px;
 	}
 	
@@ -195,23 +247,33 @@ body {
 		display: block;
 	}
 
-	.about{
-	min-height: 10vh;
+	.aboutme {
+		text-align: center;
+		letter-spacing: 3px;
+		padding: 2rem;
+		text-transform: uppercase;
+		color: dimgrey; 
 	}
-
-	.about img {
-		margin-left: none;
-		padding: none;
-		margin-top: 5px;
-		width: 50%;
-		max-width: 75px;
-		height: auto;  
-		border-radius: 85%;
-		border: 5px solid dimgrey;
+	
+	.about {
+		display: flex;
+		flex-basis: 40%;
+		align-items: center;
+		justify-content: center;
 	}
-
-	.about p{
-		Width: 50%;
+	
+	.profile {
+		Width: 15%;
+		Height: auto;
+		margin: 1rem;
+		
+	}
+	
+	.abouttext {
+		font-size: 10px;
+		padding-left: none;
+		margin-right: 1px;
+		letter-spacing: 1px;
 	}
 }
 
@@ -229,7 +291,7 @@ body {
 		transform: translateX(0px);
 	}
 }
-/*
+
 .toggle .line1{
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -241,7 +303,7 @@ body {
 .toggle .line3{
 	transform: rotate(45deg) translate(-5px, -6px);
 }
-
+/*
 body.light {
 	background: #292C35;
 }

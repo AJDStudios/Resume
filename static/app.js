@@ -24,9 +24,36 @@ const navSlide = () => {
 }
 
 // if you intend to have multiple elements, wrap them in this. 
-// const app = ()=>{
-navSlide();
-//}
+//const app = () => {
+    navSlide();
+ //}
+
+//make sure this is only effecting the Portfolio
+const texts = ["Portfolio", "Designer", "Indie Game Dev", "Composer", "Writer", "Freelancer", "Entrepeneur"];
+let count = 0;
+let index = 0;
+let currentText = "";
+let letter = "";
+
+(function type(){
+
+    if (count === texts.length){
+        count = 0;
+    }
+    currentText = texts[count];
+    letter = currentText.slice(0, ++index);
+
+    document.querySelector(".openportfolio").textContent = letter;
+    if (letter.length === currentText.length){
+        count++;
+        //remember computer's are not logical... I guess it was looking for the next int in the next word.
+        index = 0;
+    }
+    setTimeout(type, 400);
+
+})();
+
+
 
 //// dark/light toggle
 //const light = document.getElementById('light');

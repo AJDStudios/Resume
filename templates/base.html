@@ -14,10 +14,8 @@
 </head>
 <!--mobile first and think responsive-->
 <body>
-	<div class="open">
-		<h1 class="name">Aaron James Dodd</h1>
-		<h1 class="title">Frontend Software Engineer Intern</h1>
-	</div>
+	{% block open %}
+	{% endblock %}
 	<div class="scroller">
 		<nav>
 			<div class="name">
@@ -25,7 +23,7 @@
 			</div>	
 			<ul class="nav-links">
 				<li>
-					<a href="#About">About</a>
+					<a href="">About</a>
 				</li>
 				<li>
 					<a href="#Skills">Skills</a>
@@ -44,7 +42,7 @@
 			</div>
 		</nav>
 	</div>
-    {% block about %}
+    {% block content %}
     {% endblock %}
 
 	<script 
@@ -52,18 +50,8 @@
         src="{{ url_for('static', filename='app.js')}}">
     </script>
 <!--<section class="links">
-
-		</section>
-	</div>
-	<div class="skills">
-		<h4>skills and software.</h4>
-		
-	</div>
-	<div class="portfolio">
-		<h3>Creative portfolio</h3> 
-	</div>
 	<footer>
-		<section class="contacts">
+		<section class="socials">
 			<img class="animated-gif "src="https://cdn.discordapp.com/attachments/767118290619203625/981160584240304169/Marching_Aden.gif" alt="RPG Maker">
 		</section>
 		<section class=darktoggle>

@@ -10,46 +10,32 @@ app = Flask(__name__)
 def home():
     return render_template("index.html") 
 
-#def about(text):
-    #for char in about(text):
-    #    sys.stdout.write(char)
-    #    sys.stdout.flush()
- #       if char != "\n":
-  #          time.sleep(0.1)
-   #     else:
-    #        time.sleep(1)
-                
-     #   os.system("clear")
-#
- #       about(text)
-    
-    
-#text = """Lorem ipsum dolor sit amet,
-#consectetur adipiscing elit,
-#sed do eiusmod tempor incididunt
-#ut labore et dolore magna aliqua."""
+@app.route("/")
+@app.route("/portfolio")
+def about():
+    return render_template("portfolio.html") 
 
+@app.route("/")
+@app.route("/skills")
+def skills():
+    return render_template("skills.html") 
 
+@app.route("/")
+@app.route("/contact")
+def contact():
+    return render_template("contact.html") 
+
+# show your appreciateion for the user's curiosity
 @app.route("/<name>")
 def pagetitle(name):
-    return f"hello {name}!"
+    return render_template("name.html") 
 
-##if you want an easter egg for a recruiter - change this.  
-#@app.route("/recruiter")    
-#def recruiter ():
-#    return redirect(url_for("home"))
 
-#@app.route("/")
-#def about():
- #   return "About me"
-
-#@app.route("/")
-#def skills():
-#    return "skills and software"
-
-#@app.route("/")
-#def contact():
-#    return "contact me"    
+#if you want an easter egg for a recruiter - change this.  
+@app.route("/")
+@app.route("/recruiter")    
+def recruiter ():
+    return render_template("recruiter.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
