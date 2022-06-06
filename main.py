@@ -1,6 +1,7 @@
-from flask import Flask, render_template #redirect, url_for,
+from flask import Flask, render_template, redirect, url_for
 import sys, time, os, csv
 from time import sleep
+
 
 
 app = Flask(__name__)
@@ -29,7 +30,6 @@ def contact():
 @app.route("/<name>")
 def pagetitle(name):
     return render_template("name.html") 
-
 
 #if you want an easter egg for a recruiter - change this.  
 @app.route("/")

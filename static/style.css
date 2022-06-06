@@ -8,21 +8,11 @@
 font-family: 'Nunito', sans-serif;
 font-family: 'Poppins', sans-serif;*/
 
-nav {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	min-height: 8vh;
-	font-size: 10px;
-	background-color: #DCDCDC;
-	font-family: 'Poppins', sans-serif;
-}
-
 body { 
 	background-color: #131313;
 	width: 100%;
-	
   }
+
 .open {
     min-height: 30vh;
     background: #2F4F4F;
@@ -48,7 +38,6 @@ body {
     background-size: 80%;
     animation: shine 12s linear infinite;
   }
-
 
 @keyframes shine {
   0% {
@@ -95,6 +84,16 @@ body {
    100%{
 	   opacity: 1;
    }				
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	font-size: 10px;
+	background-color: #DCDCDC;
+	font-family: 'Poppins', sans-serif;
 }
 
 .scroller {
@@ -171,7 +170,84 @@ body {
 	color: dimgrey;
 	margin-right: 4px;
 	letter-spacing: 3px;
+	padding-bottom: 2rem;
 }
+
+.links {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 0;
+	min-height: 8vh;
+	background-color: #DCDCDC;
+}
+
+.socials {
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	position: relative;
+	height: 26px;
+	width: 50%;
+	transform: scale(1.5);
+	color: dimgrey;
+}
+
+.animated-gif {
+	width: 35px;
+	height: auto;
+}
+
+
+/*ligh/dark toggle*/
+.checkbox {
+	opacity: 0;
+	position: absolute;
+	padding-bottom: 0;
+	width: 20%;
+}
+
+.label {
+	background-color: #111;
+	border-radius: 50px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 2px;
+	position: relative;
+	height: 26px;
+	width: 50px;
+	transform: scale(1.5);
+}
+
+.label .ball {
+	background-color: #fff;
+	border-radius: 50%;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	height: 22px;
+	width: 22px;
+	transform: translateX(0px);
+	transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+	transform: translateX(24px);
+}
+
+.fa-moon {
+	color: #f1c40f;
+}
+
+.fa-sun {
+	color: #f39c12;
+}
+
 
 /* tablet size-ish*/
 @media screen and (max-width: 1180px) {
@@ -258,6 +334,7 @@ body {
 	.about {
 		display: flex;
 		flex-basis: 40%;
+		height: 50%;
 		align-items: center;
 		justify-content: center;
 	}
@@ -270,11 +347,17 @@ body {
 	}
 	
 	.abouttext {
-		font-size: 10px;
+		font-size: 15px;
 		padding-left: none;
 		margin-right: 1px;
 		letter-spacing: 1px;
 	}
+
+	.animated-gif {
+		width: 25px;
+		height: auto;
+	}
+
 }
 
 .nav-active {
@@ -291,7 +374,7 @@ body {
 		transform: translateX(0px);
 	}
 }
-
+/*hamburger to cross */
 .toggle .line1{
 	transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -303,71 +386,15 @@ body {
 .toggle .line3{
 	transform: rotate(45deg) translate(-5px, -6px);
 }
-/*
-body.light {
-	background: #292C35;
-}
-
-.checkbox {
-	opacity: 0;
-	position: absolute;
-	padding-bottom: 0;
-}
-
-.label {
-	background-color: #111;
-	border-radius: 50px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px;
-	position: relative;
-	height: 26px;
-	width: 50px;
-	transform: scale(1.5);
-}
-
-.label .ball {
-	background-color: #fff;
-	border-radius: 50%;
-	position: absolute;
-	top: 2px;
-	left: 2px;
-	height: 22px;
-	width: 22px;
-	transform: translateX(0px);
-	transition: transform 0.2s linear;
-}
-
-.checkbox:checked + .label .ball {
-	transform: translateX(24px);
-}
 
 
-.fa-moon {
-	color: #f1c40f;
-}
+/*.light body {
+	background: dimgrey;
+}*/
 
-.fa-sun {
-	color: #f39c12;
-}
-/*
+
 
 /*
-.nav {
-
-}
-
-
-
-.links {
-
-}
-   
-.about {
-
-}   
 
 .skills {
 
@@ -375,11 +402,6 @@ body.light {
 
 .portfolio {
 
-}
-
-.animated-gif {
-	width: 25px;
-  	height: auto;
 }
 
 

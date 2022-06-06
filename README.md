@@ -6,7 +6,7 @@ Now on the seventh iteration of a resume - built a basic HTML and CSS website ak
 Core features 
           - responsive and built with a "mobile-first" mindset. 
           - built using multiple languages (some of which will be experimental)
-          - two or three easter eggs for the curious recruiter/coder
+    
 
 Designing this block by block
  - first block was the nav bar (without links) made with Html, CSS and Javascript for the "hamburger"
@@ -19,10 +19,11 @@ Designing this block by block
  - added the relevant needed templates (navbar still doesn't link right now but "/" works)  
  - animated the portfolio head
  - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. 
-
+ - imported some portfolio pieces as statics
+ - added the footer (still needs some work and the tranlation button)
+        
         Next steps
             - assign links to the navbar
-            - import some portfolio pieces as statics
             - add the footer
             - make the navbar sticky? in general it's good, but not sure any page is going to be big enough for it to have meaning - may do it just to make sure I can. 
             - dark and light toggle needs to actually change the colour scheme - probably invert it... but need to decide on light theme still.
@@ -33,4 +34,4 @@ Designing this block by block
             - skills template
             - animate the other headers x4
             - Add Russian
-            
+                        

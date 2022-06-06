@@ -56,9 +56,9 @@ let letter = "";
 
 
 //// dark/light toggle
-//const light = document.getElementById('light');
+const light = document.getElementById('light');
 
-//light.addEventListener('change', () => {
-//	document.body.classList.toggle('light');
-//});
+light.addEventListener('change', () => {
+	document.body.classList.toggle('light');
+});
 
