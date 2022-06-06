@@ -177,18 +177,18 @@ nav {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 	min-height: 8vh;
 	background-color: #DCDCDC;
 }
 
 .socials {
-	border-radius: 50px;
+	border-radius: 20px;
 	cursor: pointer;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 2px;
+	padding: 1px;
 	position: relative;
 	height: 26px;
 	width: 50%;
@@ -197,7 +197,7 @@ nav {
 }
 
 .animated-gif {
-	width: 35px;
+	width: 25px;
 	height: auto;
 }
 
@@ -221,7 +221,7 @@ nav {
 	position: relative;
 	height: 26px;
 	width: 50px;
-	transform: scale(1.5);
+	transform: scale(1);
 }
 
 .label .ball {
