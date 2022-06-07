@@ -113,12 +113,16 @@ nav {
 	font-size: 20px;	
 }
 
-/* element - in theory - keeps the navbar sticky*/
-nav.sticky{
+/* need to do some work to get the burger looking good again */
+.sticky {
 	position: fixed;
 	top: 0;
-	left: 0;
-}
+	width: 100%;
+  }
+  
+.sticky + .content {
+	padding-top: 60px;
+  }
 
 .nav-links {
 	display: flex;
@@ -206,10 +210,9 @@ nav.sticky{
 .portcontainer h2 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 36px;
-	padding: 5rem;
+	padding: 4rem;
 	text-transform: uppercase;
-	text-decoration: underline;
-	
+	text-decoration: underline;	
 }
 
 .portcontainer h3 {
@@ -221,7 +224,17 @@ nav.sticky{
 }
 
 .portcontainer p{
-	padding: 1rem;
+	padding: 0rem;
+	font-size: 16px;
+}
+
+.portnote{
+	font-size: 8px !important;
+	padding: 0;
+}
+
+.portcontainer span {
+	font-size: 10px;
 }
 
 .links {

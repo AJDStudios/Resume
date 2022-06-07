@@ -64,14 +64,18 @@ light.addEventListener('change', () => {
 
 
 //// in theory - keeps the navbar sticky - need content big enough to test though
-var navbar = document.getElementById("navbar")
-var scroller = document.getElementById("scroller")
+window.onscroll = function() {myFunction()};
 
-window.onscroll = function (){
-    if(window.pageYOffset >= scroller.offsetTop){
-        navbar.classList.add("sticky");
-    }	
-    else{
-        navbar.classlist.remove("sticky");
-    }	
+// grabs the nav
+var navbar = document.getElementById("navbar");
+
+// grabs its offset position
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
 }

@@ -9,13 +9,14 @@ def name():
 
 @app.route("/")
 @app.route("/home")
-def home():
-    return render_template("index.html") 
-
-@app.route("/")
 @app.route("/portfolio")
 def portfolio():
     return render_template("portfolio.html") 
+
+@app.route("/")
+@app.route("/about")
+def about():
+    return render_template("about.html") 
 
 @app.route("/")
 @app.route("/skills")

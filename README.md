@@ -26,10 +26,13 @@ Designing this block by block
 
         Next steps
             - make the navbar sticky? in general it's good, but not sure any page is going to be big enough for it to have meaning - may do it just to make sure I can. 
-            - dark and light toggle needs to actually change the colour scheme - probably invert it... but need to decide on light theme still.
+            - dark and light toggle needs to actually change the colour scheme (and the image?) - probably invert it... but need to decide on light theme still.
+            - add portfolio videos
+            - make the VN video (go over the GUI again first)
+            - make the "shop wheel" for art
+            - incorporate a player of some description for music... or have two shop wheels.
 
         Broader TODO
-            - portfolio template
             - contact form and template
             - skills template
             - animate the other headers x4
