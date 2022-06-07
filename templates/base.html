@@ -23,16 +23,16 @@
 			</div>	
 			<ul class="nav-links">
 				<li>
-					<a href="">About</a>
+					<a href={{ url_for ( 'home' ) }}>About</a>
 				</li>
 				<li>
-					<a href="#Skills">Skills</a>
+					<a href={{ url_for ( 'skills' ) }}>Skills</a>
 				</li>
 				<li>
-					<a href="#Creative">Portfolio</a>
+					<a href={{ url_for ( 'portfolio' ) }}>Portfolio</a>
 				</li>
 				<li>
-					<a href="#Contacts">Contact</a>
+					<a href={{ url_for ( 'contact' ) }}>Contact</a>
 				</li>
 			</ul>
 			<div class="burger"> 
@@ -51,13 +51,19 @@
     </script>
 		<footer class="links">
 			<div class="socials">
-				<i class="fa-brands fa-github"></i>
-				<i class="fa-brands fa-youtube"></i>
-				<i class="fa-brands fa-twitch"></i>
-					<a href="https://www.twitch.tv/ajdstudios" target="_blank"></a>
-				<img class="animated-gif "src="https://cdn.discordapp.com/attachments/767118290619203625/981160584240304169/Marching_Aden.gif" alt="Demons RPG GIF"> 
-					<a href="https://discord.gg/tMMVKstvac" target="_blank"></a>
-				<setion class=darktoggle>
+				<section>
+					<a href="https://github.com/AJDStudios" target="blank"><i class="fa-brands fa-github"></i></i></a>
+				</section>	
+				<section>
+					<a href="https://www.youtube.com/channel/UCIWsjkVvj1LASyBDxuix7Hw" target="blank"><i class="fa-brands fa-youtube"></i></i></a>
+				</section>
+				<section>
+					<a href="https://www.twitch.tv/ajdstudios" target="_blank"><i class="fa-brands fa-twitch" src=></i></a>
+				</section>
+				<section>
+					<a href="https://discord.gg/tMMVKstvac" target="_blank"><image class="animated-gif" src="{{url_for('static', filename='images/Marching Aden.gif')}}"></a>
+				</section>
+				<section class="darktoggle">
 					<input type="checkbox" class="checkbox" id="light" />
 					<label class="label" for="light">
 						<i class="fas fa-sun"></i>
@@ -65,11 +71,11 @@
 						<div class="ball"></div>
 					</label>
 				</section>
-				<section class=language> 
-
+<!-- toggle is a no.... second navbar is too complicated. Both will work, but what's a better way of doing it? a plug-in? well, we're not here yet - have the content first
+				<section class="languages">				
 				</section>
+-->
 			</div>    
-		</footer>	
-		
+		</footer>		
 </body>
 </html>

@@ -20,11 +20,11 @@ Designing this block by block
  - animated the portfolio head
  - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. 
  - imported some portfolio pieces as statics
- - added the footer (still needs some work and the tranlation button)
-        
+ - added the footer (still needs some work and the translation button)
+ - navbar is now functional  
+ - added stage 1 of Easter egg 2 
+
         Next steps
-            - assign links to the navbar
-            - add the footer
             - make the navbar sticky? in general it's good, but not sure any page is going to be big enough for it to have meaning - may do it just to make sure I can. 
             - dark and light toggle needs to actually change the colour scheme - probably invert it... but need to decide on light theme still.
 
