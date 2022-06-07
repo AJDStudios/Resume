@@ -45,11 +45,8 @@
     {% block content %}
     {% endblock %}
 
-	<script 
-        type="text/javascript" 
-        src="{{ url_for('static', filename='app.js')}}">
-    </script>
-		<footer class="links">
+	
+	<footer class="links">
 			<div class="socials">
 				<section>
 					<a href="https://github.com/AJDStudios" target="blank"><i class="fa-brands fa-github"></i></i></a>
@@ -76,6 +73,10 @@
 				</section>
 -->
 			</div>    
-		</footer>		
+	</footer>	
+	<script 
+        type="text/javascript" 
+        src="{{ url_for('static', filename='app.js')}}">
+    </script>	
 </body>
 </html>

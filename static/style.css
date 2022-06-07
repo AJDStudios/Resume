@@ -10,7 +10,9 @@ font-family: 'Poppins', sans-serif;*/
 
 body { 
 	background-color: #131313;
-	width: 100%;
+	color: dimgrey;
+	overflow-x: hidden;
+	margin-right: 0;
   }
 
 /*body .light  {
@@ -111,6 +113,13 @@ nav {
 	font-size: 20px;	
 }
 
+/* element - in theory - keeps the navbar sticky*/
+nav.sticky{
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
 .nav-links {
 	display: flex;
 	justify-content: space-around;
@@ -143,6 +152,7 @@ nav {
 }
 
 .aboutme {
+	font-family: 'Nunito', sans-serif;
 	text-align: center;
 	letter-spacing: 3px;
 	font-size: 36px;
@@ -181,9 +191,42 @@ nav {
 	padding-bottom: 2rem;
 }
 
+.portcontainer{
+	display: fixed;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	letter-spacing: 3px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.portcontainer h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	padding: 5rem;
+	text-transform: uppercase;
+	text-decoration: underline;
+	
+}
+
+.portcontainer h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	padding: 3rem;
+	text-transform: uppercase;
+	text-decoration: underline;
+}
+
+.portcontainer p{
+	padding: 1rem;
+}
+
 .links {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	margin-bottom: 0px;
 	min-height: 8vh;

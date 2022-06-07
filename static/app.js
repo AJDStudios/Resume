@@ -62,3 +62,16 @@ light.addEventListener('change', () => {
 	document.body.classList.toggle('light');
 });
 
+
+//// in theory - keeps the navbar sticky - need content big enough to test though
+var navbar = document.getElementById("navbar")
+var scroller = document.getElementById("scroller")
+
+window.onscroll = function (){
+    if(window.pageYOffset >= scroller.offsetTop){
+        navbar.classList.add("sticky");
+    }	
+    else{
+        navbar.classlist.remove("sticky");
+    }	
+}
