@@ -26,12 +26,12 @@ Designing this block by block
  - navbar now sticky - but need to change something to put the burger back in position on phone
  - added video for RPG
  - added image carousel
+ - blocked as much of the cookie data from YouTube as I know how to do (my ethical hacking still needs a ton of work - red and blue team). 
 
         Next steps
             - resize the videos for different screens.
-            - dark and light toggle needs to actually change the colour scheme (and the image?) - probably invert it... but need to decide on light theme still.
+            - dark and light toggle needs to actually change the colour scheme everywhere - not just portfolio (and the image?)
             - make the VN video (go over the GUI again first) - then add it.
-            - incorporate a player of some description for music... or have two shop wheels.
 
         Broader TODO
             - contact form and template

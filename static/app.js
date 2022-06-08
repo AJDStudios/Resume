@@ -23,10 +23,8 @@ const navSlide = () => {
     }); 
 }
 
-// if you intend to have multiple elements, wrap them in this. 
-//const app = () => {
-    navSlide();
- //}
+navSlide();
+ 
 
 //make sure this is only effecting the Portfolio
 const texts = ["Portfolio", "Designer", "Indie Game Dev", "Composer", "Writer", "Freelancer", "Entrepeneur"];
@@ -56,9 +54,9 @@ let letter = "";
 
 
 //// dark/light toggle
-const light = document.getElementById('light');
+const chk = document.getElementById('chk');
 
-light.addEventListener('change', () => {
+chk.addEventListener('change', () => {
 	document.body.classList.toggle('light');
 });
 
@@ -80,7 +78,7 @@ function myFunction() {
   }
 }
 
-// Carousel starts here
+// Carousel starts 
 const carouselSlide = document.querySelector('.carousel-slide');
 const carouselImages = document.querySelectorAll('.carousel-slide img');
 
@@ -140,3 +138,5 @@ window.onresize = () => {
     carouselSlide.style.transition = "none";
     carouselSlide.style.transform = "translateX(" + -size * counter + "px)";
   };
+
+//skills hero

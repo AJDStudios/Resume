@@ -15,10 +15,6 @@ body {
 	margin-right: 0;
   }
 
-/*body .light  {
-	background: dimgrey;
-}*/
-
 a {
 	color: inherit;
 }
@@ -162,8 +158,7 @@ nav {
 	font-size: 36px;
 	padding: 5rem;
 	text-transform: uppercase;
-	text-decoration: underline;
-	color: dimgrey; 
+	text-decoration: underline; 
 }
 
 .about {
@@ -189,7 +184,6 @@ nav {
 	font-size: 30px;
 	padding-left: 20px;
 	text-align: justify;
-	color: dimgrey;
 	margin-right: 4px;
 	letter-spacing: 3px;
 	padding-bottom: 2rem;
@@ -205,6 +199,11 @@ nav {
 	letter-spacing: 3px;
 	width: 100%;
 	overflow-x: hidden;
+}
+
+.portcontainer iframe {
+	padding: 3rem;
+	display: flexbox;
 }
 
 .portcontainer h2 {
@@ -236,6 +235,7 @@ nav {
 .portcontainer span {
 	font-size: 10px;
 }
+
 /*Carousel*/
 .carousel-container {
     max-width: 42%;
@@ -316,7 +316,7 @@ img {
 }
 
 .label {
-	background-color: #111;
+	background-color: black;
 	border-radius: 50px;
 	cursor: pointer;
 	display: flex;
@@ -330,7 +330,7 @@ img {
 }
 
 .label .ball {
-	background-color: #fff;
+	background-color: white;
 	border-radius: 50%;
 	position: absolute;
 	top: 2px;
@@ -390,7 +390,7 @@ img {
 
 /* cut-off for mobile */
 @media screen and (max-width: 768px) {
-	html, body{
+	body{
 		overflow-x: clip; 
 		position: relative;
 	} 
@@ -431,7 +431,7 @@ img {
 		letter-spacing: 3px;
 		padding: 2rem;
 		text-transform: uppercase;
-		color: dimgrey; 
+		
 	}
 	
 	.about {
@@ -489,27 +489,10 @@ img {
 .toggle .line3{
 	transform: rotate(45deg) translate(-5px, -6px);
 }
-
-
-body .light  {
+/* only works on portfolio */
+body.light  {
 	background: dimgrey;
+	color: #131313
 }
 
-
-
-/*
-
-.skills {
-
-}    
-
-.portfolio {
-
-}
-
-
-.contacts {
-
-}
-
-*/    
+	
