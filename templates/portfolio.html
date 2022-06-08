@@ -17,7 +17,7 @@
             <h2>Game Projects</h2>
             <section class="RPG">
                 <h3>Demons:Genesis the RPG</h3>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jdhs5-FWpYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Jdhs5-FWpYo" title="RPG game let's play" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
                 <p class="portnote"> Note * As these games will be commercial projects - the source code is not available *</p>
                 <p>Made with the RPG maker engine and Java plugins (for example the "breathing enemies). OST (mostly), original artwork (ongoing)"</p> 
                 <p>The original game has 25-40 hours of gameplay available. Now I'm working on replacing engine features with my own and making the game bigger.</p> 
@@ -33,16 +33,29 @@
             </section>
         </section>
         <section class="Art">
-            <h2>art scroller</h2>
+            <h2>Art for VN</h2>
+            <div class="carousel-container">
+                <i class="fas fa-arrow-left" id="prevBtn"></i></i>
+                <i class="fas fa-arrow-right" id="nextBtn"></i></i>
+                <div class="carousel-slide">
+                  <img src="{{url_for('static', filename='images/Making friends.png')}}" id="lastClone" alt="">
+                  <img src="{{url_for('static', filename='images/title.jpg')}}" alt="">
+                  <img src="{{url_for('static', filename='images/generic demons.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/fravashi training me.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/Three Triad darker.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/aden post triad stage 2.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/sonny of neph.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/Young Jolana.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/Teen jolana.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/Fravashi Jolana.jpg')}}" alt="">
+                  <img src="{{url_for('static', filename='images/Kreagore take 2.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images//Making friends.png')}}" alt="">
+                  <img src="{{url_for('static', filename='images/title.jpg')}}" id="firstClone" alt="">
+                </div>
+            </div>
         </section>
         <section class="Music">
-            <h2>music playlist</h2>
+            <h2>music and video playlist</h2>
         </section>
-        <section class="otherport">
-             <h2>book videos etc</h2> 
-        </section>
-
-
-
     </div>
 {% endblock %}

@@ -236,6 +236,48 @@ nav {
 .portcontainer span {
 	font-size: 10px;
 }
+/*Carousel*/
+.carousel-container {
+    max-width: 42%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden; 
+    position: relative;
+} 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-slide {
+    display: flex;
+    Width: auto;
+    min-height: 200px;
+    max-height: 600px;
+    object-fit: scale-down;
+}    
+
+/*buttons for carousel*/
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: dimgrey;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: dimgrey;
+    cursor: pointer;
+}
 
 .links {
 	display: flex;
@@ -345,7 +387,6 @@ nav {
 
 /* need a third cut-off for mini-tablet profile
 @media screen and (max-width: 768px) {}*/
-
 
 /* cut-off for mobile */
 @media screen and (max-width: 768px) {
