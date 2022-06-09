@@ -15,8 +15,21 @@ body {
 	margin-right: 0;
   }
 
+ul {
+	list-style: none;
+}
+
 a {
 	color: inherit;
+}
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	padding: 3rem;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
 }
 
 .open {
@@ -206,7 +219,7 @@ nav {
 	display: flexbox;
 }
 
-.portcontainer h2 {
+h2 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 36px;
 	padding: 4rem;
@@ -214,7 +227,7 @@ nav {
 	text-decoration: underline;	
 }
 
-.portcontainer h3 {
+h3 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 24px;
 	padding: 3rem;
@@ -222,7 +235,7 @@ nav {
 	text-decoration: underline;
 }
 
-.portcontainer p{
+p{
 	padding: 0rem;
 	font-size: 16px;
 }

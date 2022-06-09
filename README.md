@@ -27,16 +27,17 @@ Designing this block by block
  - added video for RPG
  - added image carousel
  - blocked as much of the cookie data from YouTube as I know how to do (my ethical hacking still needs a ton of work - red and blue team). 
+ - added the VN project video
+ - added skills and content content - will style after transfering to React
 
         Next steps
-            - resize the videos for different screens.
-            - dark and light toggle needs to actually change the colour scheme everywhere - not just portfolio (and the image?)
-            - make the VN video (go over the GUI again first) - then add it.
+            - Transfer to React
+            - Contact Form
+            - Simplify CSS
 
         Broader TODO
-            - contact form and template
-            - skills template
+            -dark light toggle changes everywhere
             - animate the other headers x4
             - Add Russian
-            - transfer from python to react
+            
                         

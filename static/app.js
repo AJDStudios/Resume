@@ -61,7 +61,7 @@ chk.addEventListener('change', () => {
 });
 
 
-//// in theory - keeps the navbar sticky - need content big enough to test though
+//// works, but cuts off content on mobile size
 window.onscroll = function() {myFunction()};
 
 // grabs the nav
