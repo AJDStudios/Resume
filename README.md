@@ -29,14 +29,14 @@ Designing this block by block
  - blocked as much of the cookie data from YouTube as I know how to do (my ethical hacking still needs a ton of work - red and blue team). 
  - added the VN project video
  - added skills and content content - will style after transfering to React
-
+ - working on React behind the scenes, when it's at a point that I can add instead of just redoing the same things, I'll commit the React version here. 
+        
         Next steps
-            - Transfer to React
             - Contact Form
             - Simplify CSS
 
         Broader TODO
-            -dark light toggle changes everywhere
+            - dark light toggle changes everywhere
             - animate the other headers x4
             - Add Russian
             
