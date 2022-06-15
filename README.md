@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Resume
+A modern CV for frontend software engineer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Now on the seventh iteration of a resume - built a basic HTML and CSS website akin to something I would have made 15 years ago when i did this kind of thing. 
 
-## Available Scripts
+Core features 
+          - responsive and built with a "mobile-first" mindset. 
+          - built using multiple languages (some of which will be experimental)
+    
 
-In the project directory, you can run:
+Designing this block by block
+ - first block was the nav bar (without links) made with Html, CSS and Javascript for the "hamburger"
+ - second block was actually the top block - animated splash with my name and job aspired to.
+            TODO:
+                - still need to animate the texts as layers. Probably using javascript. So one writes, fades out, and then is replaced by the other one. Repeat this.
+                - after 5 or 6 repeats - add an easter egg. 
+ -Third block was the about section. This is now laid out an has a draft of content.
+ - added a dark/light mode toggle (that doesn't actually change the colours yet.) using javascript.
+ - added the relevant needed templates (navbar still doesn't link right now but "/" works)  
+ - animated the portfolio head
+ - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. 
+ - imported some portfolio pieces as statics
+ - added the footer (still needs some work and the translation button)
+ - navbar is now functional  
+ - added stage 1 of Easter egg 2 
+ - navbar now sticky - but need to change something to put the burger back in position on phone
+ - added video for RPG
+ - added image carousel
+ - blocked as much of the cookie data from YouTube as I know how to do (my ethical hacking still needs a ton of work - red and blue team). 
+ - added the VN project video
+ - added skills and content content - will style after transfering to React
+ - working on React behind the scenes, when it's at a point that I can add instead of just redoing the same things, I'll commit the React version here. 
+ - Commited to the React change (copied everything just in case). 
+        
+        Next steps
+            - copy and adapt all JS
+            - copy and adapt all HTMl elements
+            - light/dark toggle works
+            - Contact Form
+            - Simplify CSS
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+        Broader TODO
+            - dark light toggle changes everywhere
+            - animate the other headers x4
+            - Add Russian
+            
+                        
