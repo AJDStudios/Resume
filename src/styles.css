@@ -29,6 +29,38 @@ a {
     text-decoration: none;
 }
 
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 36px;
+	padding: 4rem;
+	text-transform: uppercase;
+	text-decoration: underline;	
+}
+
+h3 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	padding: 3rem;
+	text-transform: uppercase;
+	text-decoration: underline;
+
+}
+
+h4 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 24px;
+	padding: 3rem;
+	text-transform: uppercase;
+	text-decoration: underline;
+	text-align: center;
+}
+
+p{
+	padding: 0rem;
+	font-size: 16px;
+}
+
+
 nav {
 	display: flex;
 	justify-content: space-around;
@@ -159,4 +191,248 @@ nav {
 
 .fa-sun {
 	color: #f39c12;
+}
+
+/* tablet size-ish*/
+@media screen and (max-width: 1180px) {
+	.open {
+		max-height: 15px;
+	}
+	
+	.open h1 {
+		padding: 1.5rem;
+		font-size: 20px;
+	}
+
+	.openp {
+		max-height: 15px;
+	}
+	
+	.openp h1 {
+		padding: 1.5rem;
+		font-size: 32px;
+	}
+
+	.nav-links {
+		min-width: 30%;
+		width: 60%;
+		margin: 10px;
+	}
+
+	.abouttext {
+		width: 60%;
+		font-size: 20px;
+	}
+}
+/* need to flip this so it grows instead of shrinks
+@media screen and (max-width: 768px) {}*/
+
+/* cut-off for mobile */
+@media screen and (max-width: 768px) {
+	body{
+		overflow-x: clip; 
+		position: relative;
+	} 
+	
+	.open {
+		max-height: 15px;
+	}
+
+	.open h1 {
+		padding: 2.5rem;
+		font-size: 15px;
+	}
+	
+	.nav-links{
+		position: absolute;
+		right: 5px;
+		height: 50vh;
+		top: 33.5vh;
+		background-color: #DCDCDC;
+		display: flex; 
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in; 
+	}	
+	
+	.nav-links li{
+		opacity: 0;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.aboutme {
+		text-align: center;
+		letter-spacing: 3px;
+		padding: 2rem;
+		text-transform: uppercase;
+		
+	}
+	
+	.about {
+		display: flex;
+		flex-basis: 40%;
+		height: 50%;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.profile {
+		Width: 15%;
+		Height: auto;
+		margin: 1rem;
+		
+	}
+	
+	.abouttext {
+		font-size: 15px;
+		padding-left: none;
+		margin-right: 1px;
+		letter-spacing: 1px;
+	}
+
+	.animated-gif {
+		width: 25px;
+		height: auto;
+	}
+
+}
+
+.nav-active {
+	transform: translateX(0%)
+}
+/*In theory, this creates a sliding effect*/
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+/*hamburger to cross */
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
+
+.aboutme {
+	font-family: 'Nunito', sans-serif;
+	text-align: center;
+	letter-spacing: 3px;
+	font-size: 36px;
+	padding: 5rem;
+	text-transform: uppercase;
+	text-decoration: underline; 
+}
+
+.about {
+	display: flex;
+	flex-basis: 40%;
+	align-items: center;
+	justify-content: center;
+}
+
+.profile {
+	max-width: 30%;
+	Width: 18%;
+	Height: auto;
+	margin: 4rem;
+	border-radius: 85%;
+	border: 5px solid dimgrey;
+	margin-top: 25px;
+	
+}
+
+.abouttext {
+	Width: 70%;
+	font-size: 30px;
+	padding-left: 20px;
+	text-align: justify;
+	margin-right: 4px;
+	letter-spacing: 3px;
+	padding-bottom: 2rem;
+}
+
+.portcontainer{
+	display: fixed;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	letter-spacing: 3px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.portcontainer iframe {
+	padding: 3rem;
+	display: flexbox;
+}
+
+.portnote{
+	font-size: 8px !important;
+	padding: 0;
+}
+
+.portcontainer span {
+	font-size: 10px;
+}
+
+/*Carousel*/
+.carousel-container {
+    max-width: 42%;
+    margin: auto;
+    border: 5px solid black;
+    overflow: hidden; 
+    position: relative;
+} 
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carousel-slide {
+    display: flex;
+    Width: auto;
+    min-height: 200px;
+    max-height: 600px;
+    object-fit: scale-down;
+}    
+
+/*buttons for carousel*/
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    left: 5%;
+    font-size: 30px;
+    color: dimgrey;
+    cursor: pointer;
+}
+
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 5%;
+    font-size: 30px;
+    color: dimgrey;
+    cursor: pointer;
 }

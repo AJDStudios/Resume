@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router-dom"
 
+
 function App() {
   return (
     <div className="App">

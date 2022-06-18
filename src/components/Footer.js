@@ -1,3 +1,6 @@
+import { startTransition } from 'react';
+import Gif from "./aden.gif";
+
 export default function Footer () {
     return <footer className="footer">
         <div className="socials">
@@ -11,7 +14,9 @@ export default function Footer () {
                 <a href="https://www.twitch.tv/ajdstudios" target="_blank"><i className="fa-brands fa-twitch"></i></a>
             </section>
             <section>
-                <a href="https://discord.gg/tMMVKstvac" target="_blank"><image className="animated-gif" src="{{url_for('static', filename='images/Marching Aden.gif')}}"></image></a>
+                <a href="https://discord.gg/tMMVKstvac" target="_blank">
+                <img className="animated-gif" src={ Gif } />
+                </a>
             </section>
             <section className="darktoggle">
                 <input type="checkbox" className="checkbox" id="chk" />
