@@ -7,10 +7,10 @@ import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router-dom"
 
 
+
 function App() {
   return (
-    <div className="App">
-      <h1> Hero </h1>
+    <>
       <Navbar />
         <Routes>
           <Route path="/" element={<Portfolio />} />
@@ -20,7 +20,7 @@ function App() {
           <Route path="/Contact" element={<Contact />} />
         </Routes>
       <Footer />
-    </div>
+    </>
   );
 }
 

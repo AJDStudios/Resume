@@ -20,6 +20,7 @@ body .light {
 	margin: 1rem;
 	text-align: center;
 }
+
 ul {
 	list-style: none;
 }
@@ -59,7 +60,6 @@ p{
 	padding: 0rem;
 	font-size: 16px;
 }
-
 
 nav {
 	display: flex;
@@ -145,7 +145,6 @@ nav {
 	width: 25px;
 	height: auto;
 }
-
 
 /*ligh/dark toggle*/
 .darktoggle .checkbox {
@@ -348,10 +347,10 @@ nav {
 }
 
 .profile {
-	max-width: 30%;
-	Width: 18%;
-	Height: auto;
-	margin: 4rem;
+	max-width: 30% !important;
+	Width: 18% !important;
+	Height: auto !important;
+	margin: 4rem !important;
 	border-radius: 85%;
 	border: 5px solid dimgrey;
 	margin-top: 25px;
@@ -367,6 +366,80 @@ nav {
 	letter-spacing: 3px;
 	padding-bottom: 2rem;
 }
+
+.open {
+    min-height: 30vh;
+    background: #2F4F4F;
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.open h1 {
+	font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
+	padding: 4rem;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: shine 10s linear infinite;
+  }
+
+@keyframes shine {
+  0% {
+	background-position-x: -500%;
+  }
+  100% {
+	background-position-x: 500%;
+  }
+}
+
+.openp {
+	min-height: 30vh;
+   	background: #2F4F4F;
+   	vertical-align: top;
+   	display: inline-block;
+   	text-align: center;
+   	width: 100%;
+}
+
+.openp h1 {
+   font-weight: 700;
+   text-align: center;
+   font-size: 32px;
+   font-family: 'Nunito', sans-serif;
+   text-transform: uppercase;
+   padding: 2rem;
+   letter-spacing: 3px;
+   color: dimgray;
+}
+
+.openportfolio::after {
+   content: "";
+   width: 1px;
+   height: 3px;
+   right: 1px;
+   border-right: 1px solid dimgray; 
+   animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+   0%{
+	   opacity: 0;
+   }
+   100%{
+	   opacity: 1;
+   }				
+}
+
 
 .portcontainer{
 	display: fixed;

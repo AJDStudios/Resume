@@ -4,7 +4,7 @@ export default function Navbar () {
     return (
 	 <nav className="nav">
         <Link to="/" className="site-title">
-			Resume
+			AD's Resume
 		</Link>
             <ul className="nav-links">
 				<CustomLink to="/Portfolio">Portfolio</CustomLink>
@@ -17,6 +17,7 @@ export default function Navbar () {
 				<div className="line2"></div>
 				<div className="line3"></div>
 			</div>
+			
     </nav>
 	)
 }
@@ -33,3 +34,6 @@ function CustomLink ({ to, children, ...props }) {
 		</li>
 	)
 }
+
+
+

@@ -14,6 +14,10 @@ import youngjo from "./images/youngjo.png";
 export default function Portfolio() {
     return (
         <>
+            <div class="openp">
+                <h1>Aaron James Dodd</h1>
+                <h1 class="openportfolio"></h1>
+            </div>
             <div className="portcontainer">
                 <section class="games">
                     <h2>Game Projects</h2>
