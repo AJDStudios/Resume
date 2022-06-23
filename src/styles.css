@@ -229,7 +229,7 @@ nav {
 /* cut-off for mobile */
 @media screen and (max-width: 768px) {
 	body{
-		overflow-x: clip; 
+		overflow-x: hidden; 
 		position: relative;
 	} 
 	

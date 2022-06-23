@@ -6,8 +6,6 @@ import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import { Route, Routes } from "react-router-dom"
 
-
-
 function App() {
   return (
     <>
@@ -19,9 +17,21 @@ function App() {
           <Route path="/Skills" element={<Skills />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-      <Footer />
+      <Footer />  
     </>
   );
+}
+
+class Script extends App {
+  componentDidMount() {
+    const script = document.createElement("script");    script.async = true;    script.src = "./Javascript.js";    this.div.appendChild(script);  }
+  render() {
+    return (
+      <div className="Script" ref={el => (this.div = el)}>
+        {/* Script is inserted here */}
+      </div>
+    );
+  }
 }
 
 export default App;
