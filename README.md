@@ -31,13 +31,15 @@ Designing this block by block
  - added skills and content content - will style after transfering to React
  - transferred to a React framework
  - Transferred all content to react framework (without functioning JS)
-        
+                                    Took a few days off for wife's birthday and in general to clear head.
+ - Contact form is not mostly up and running, but not functional as intended ((needs debugging) also needs a capcha added to it, but I have to teach so will come later.)
+ - First attempt to get this online using githubpages led to only having the readme online... don't understand that, will try again after contact section.        
         Next steps
             - translate JS to JSX
-            - Contact Form
+            - Contact Form debug and capcha inclusion
             - Simplify CSS
             - Change the icon to a custom one. 
-        Broader TODO
+        Broader TODO (aftercare)
             - animate the other headers x4
             - Add Russian
             

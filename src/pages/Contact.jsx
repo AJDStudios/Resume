@@ -1,11 +1,11 @@
 import React from "react";
-import ContactForm from "./Contactform.js";
+import ContactForm from "./Contactform.tsx";
 
 export default function Contact() {
     return (
         <>
-            <h2>Contact AD</h2>
             <ContactForm />
         </>
     )
 }
+

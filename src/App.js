@@ -22,16 +22,4 @@ function App() {
   );
 }
 
-class Script extends App {
-  componentDidMount() {
-    const script = document.createElement("script");    script.async = true;    script.src = "./Javascript.js";    this.div.appendChild(script);  }
-  render() {
-    return (
-      <div className="Script" ref={el => (this.div = el)}>
-        {/* Script is inserted here */}
-      </div>
-    );
-  }
-}
-
 export default App;
