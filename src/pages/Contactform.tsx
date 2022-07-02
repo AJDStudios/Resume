@@ -16,8 +16,8 @@ type ServiceMessage = {
 
 const formId = "IwLrQskq";
 const formSparkUrl = "https://submit-form.com/${formId}";
-const recaptchaKey = '6LcFObsgAAAAAMPQLqMI8PYpvPU_lUnmrSHBzk7H';
-const recaptchaRef = useRef<any>();
+const recaptchaKey = '6LeeSrsgAAAAAC77Qq93jjwwlvfUDSyyJQTDhbPW';
+
 
 const initialFormState = {
   email: '',
@@ -25,6 +25,8 @@ const initialFormState = {
   message: '',
 };
 
+export default function Contactform() {
+const recaptchaRef = useRef<any>();  
 const [formState, setFormState] = useState<FormState>(initialFormState);
 const [submitting, setSubmitting] = useState<boolean>(false);
 const [message, setMessage] = useState<ServiceMessage>();
@@ -72,7 +74,7 @@ const updateRecaptchaToken = (token: string | null) => {
   setRecaptchaToken(token as string);
 };
 
-export default function Contactform() {
+
   return (
     <div className="contactform">
       <h2>Contact AD</h2>
