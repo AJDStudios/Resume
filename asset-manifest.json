@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Resume/static/css/main.ed0ad39c.css",
+    "main.js": "/Resume/static/js/main.d7abd99b.js",
+    "static/media/friends.png": "/Resume/static/media/friends.eb970c72b2c2d1e85f3f.png",
+    "static/media/genericdemons.png": "/Resume/static/media/genericdemons.0f22cfe2acd7a087c730.png",
+    "static/media/fravashijolana.jpg": "/Resume/static/media/fravashijolana.c2e8d63e1ff6a207b21c.jpg",
+    "static/media/title.jpg": "/Resume/static/media/title.5f94aa2fc34d35234c75.jpg",
+    "static/media/teenjo.png": "/Resume/static/media/teenjo.1c5239c4a8d21ac414f8.png",
+    "static/media/sonny.png": "/Resume/static/media/sonny.b88556877fad01330091.png",
+    "static/media/triad.png": "/Resume/static/media/triad.e5e37bb01e31051b0468.png",
+    "static/media/kreagore.png": "/Resume/static/media/kreagore.75d1e0bde7615537562d.png",
+    "static/media/youngjo.png": "/Resume/static/media/youngjo.d0e44b150f80bc67d571.png",
+    "static/media/fravashiad.png": "/Resume/static/media/fravashiad.51e0db545fc9579b6e2e.png",
+    "static/media/dissolve.png": "/Resume/static/media/dissolve.2d142bf5ce570e5481a8.png",
+    "static/media/profiledark.jpg": "/Resume/static/media/profiledark.d50904a59299c4fff73f.jpg",
+    "static/media/aden.gif": "/Resume/static/media/aden.e1d69cd4952b1e0f15f1.gif",
+    "index.html": "/Resume/index.html",
+    "main.ed0ad39c.css.map": "/Resume/static/css/main.ed0ad39c.css.map",
+    "main.d7abd99b.js.map": "/Resume/static/js/main.d7abd99b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ed0ad39c.css",
+    "static/js/main.d7abd99b.js"
+  ]
+}
