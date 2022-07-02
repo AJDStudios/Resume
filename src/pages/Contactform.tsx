@@ -1,6 +1,7 @@
-import React, { FormEvent, useState, ChangeEvent } from 'react';
+import React, { FormEvent, useState, ChangeEvent, useRef } from 'react';
 import axios from "axios";
 import { faSpoon } from '@fortawesome/free-solid-svg-icons';
+import ReCAPTCHA from 'react-google-recaptcha';
 
 type FormState = {
   email: string;
@@ -15,6 +16,8 @@ type ServiceMessage = {
 
 const formId = "IwLrQskq";
 const formSparkUrl = "https://submit-form.com/${formId}";
+const recaptchaKey = '6LcFObsgAAAAAMPQLqMI8PYpvPU_lUnmrSHBzk7H';
+const recaptchaRef = useRef<any>();
 
 const initialFormState = {
   email: '',
@@ -25,7 +28,7 @@ const initialFormState = {
 const [formState, setFormState] = useState<FormState>(initialFormState);
 const [submitting, setSubmitting] = useState<boolean>(false);
 const [message, setMessage] = useState<ServiceMessage>();
-
+const [recaptchaToken, setRecaptchaToken] = useState<string>();
 const submitForm = async (event: FormEvent) => {
   event.preventDefault();
   setSubmitting(true);
@@ -35,7 +38,8 @@ const submitForm = async (event: FormEvent) => {
 
 const postSubmission = async () => {
   const payload = {
-    ...formState 
+    ...formState, 
+    "g-recaptcha-response": recaptchaToken
   };
 
   try {
@@ -45,6 +49,8 @@ const postSubmission = async () => {
       class: 'bg-green-500',
       text: 'Your message has been recieved, AD will respond soon.',
     });
+    setFormState(initialFormState);
+    recaptchaRef.current.reset();
     } catch(error){
       console.log(error);
       setMessage({
@@ -62,6 +68,9 @@ const updateFormControl = (event: ChangeEvent<HTMLInputElement | HTMLTextAreaEle
   setFormState(updateFormState);
 };
 
+const updateRecaptchaToken = (token: string | null) => {
+  setRecaptchaToken(token as string);
+};
 
 export default function Contactform() {
   return (
@@ -85,6 +94,11 @@ export default function Contactform() {
             <label htmlFor="message">Message</label>
             <textarea onChange={updateFormControl} className="contactmessage" id="message" value={formState.message} />
           </div>
+          <ReCAPTCHA
+            ref={recaptchaRef}
+            sitekey={recaptchaKey}
+            OnChange={updateRecaptchaToken}
+          />
           <button disabled={submitting} className="submit">
             {submitting ? 'Submitting...' : 'Submit'}
           </button>
