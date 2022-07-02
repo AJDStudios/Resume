@@ -509,3 +509,17 @@ img {
     color: dimgrey;
     cursor: pointer;
 }
+
+.contactform{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.submit {
+	background-color: #2F4F4F;
+	color: dimgray;
+	width: 100%;
+	Height: auto;
+}
+
