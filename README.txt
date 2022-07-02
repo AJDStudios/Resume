@@ -45,5 +45,3 @@ Designing this block by block
             - animate the other headers 
         Broader TODO (aftercare)
             - Add Russian
-            
-                        
