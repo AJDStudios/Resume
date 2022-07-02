@@ -35,16 +35,15 @@ Designing this block by block
  - Contact form is not mostly up and running, but not functional as intended ((needs debugging) also needs a capcha added to it, but I have to teach so will come later.)
  - First attempt to get this online using githubpages led to only having the readme online... don't understand that, will try again after contact section. 
  - recaptcha added to contact form 
-
-- I have an issue with "useState" that is preventing a build and by extension preventing hosting. Not sure why. 
+ - it's live.
 
 
         Next steps
-            - translate JS to JSX
+            - reformat all JS
             - Simplify CSS
-            - Change the icon to a custom one. 
+            - Change the icon to a custom one.
+            - animate the other headers 
         Broader TODO (aftercare)
-            - animate the other headers x4
             - Add Russian
             
                         
