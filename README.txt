@@ -36,12 +36,24 @@ Designing this block by block
  - First attempt to get this online using githubpages led to only having the readme online... don't understand that, will try again after contact section. 
  - recaptcha added to contact form 
  - it's live.
+ - Added static contact info
+ - cleaned up some CSS
 
 
-        Next steps
-            - reformat all JS
+        Essential additions
+            - Add Recruiter and Name Page again (HTML/CSS).
+            - Burger functions with JSX
+            - Typewriter animation works on portfolio page - if I can't get this working with JSX, I'll do it with CSS
+            - light dark toggle functionality
+            - Carousel functionality
+            - CSS for skill page
+            - CSS for Contact
+            - animate skill header
+            - animate contact header
+            - debug contact issue
+            - Test (and improve) reactivity as much as time allows 
+        Extra (time allowing)
             - Simplify CSS
-            - Change the icon to a custom one.
-            - animate the other headers 
-        Broader TODO (aftercare)
+            - animate the other headers
             - Add Russian
+            - Change the icon to a custom one.
