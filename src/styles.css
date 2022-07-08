@@ -146,6 +146,7 @@ nav {
 	height: auto;
 }
 
+
 /*ligh/dark toggle*/
 .darktoggle .checkbox {
 	opacity: 0;
@@ -439,7 +440,6 @@ nav {
 	   opacity: 1;
    }				
 }
-
 
 .portcontainer{
 	display: fixed;

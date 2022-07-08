@@ -38,10 +38,9 @@ Designing this block by block
  - it's live.
  - Added static contact info
  - cleaned up some CSS
-
+ - custom icon added
 
         Essential additions
-            - Add Recruiter and Name Page again (HTML/CSS).
             - Burger functions with JSX
             - Typewriter animation works on portfolio page - if I can't get this working with JSX, I'll do it with CSS
             - light dark toggle functionality
@@ -56,4 +55,4 @@ Designing this block by block
             - Simplify CSS
             - animate the other headers
             - Add Russian
-            - Change the icon to a custom one.
+            - recruiter and name page if I really want them. 
