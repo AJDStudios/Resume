@@ -77,7 +77,6 @@ const updateRecaptchaToken = (token: string | null) => {
 
   return (
     <div className="contactform">
-      <h2>Contact AD</h2>
       {message && (
         <div className={`"contactmessage" ${message.class}`}> 
           {message.text}

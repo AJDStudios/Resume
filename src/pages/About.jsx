@@ -4,9 +4,9 @@ import profiledark from "./images/profiledark.jpg";
 export default function About() {
     return (
         <>
-            <div class="open">
-                <h1 class="name">Aaron James Dodd</h1>
-                <h1 class="title">Frontend Software Engineer</h1>
+            <div className="open">
+                <h1 className="name">Aaron James Dodd</h1>
+                <h1 className="title">Frontend Software Engineer</h1>
             </div>
             <h3 className="aboutme">About Me</h3>
             <div className="about">

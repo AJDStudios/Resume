@@ -523,3 +523,27 @@ img {
 	Height: auto;
 }
 
+.contact {
+	font-size: 2rem;
+	color: #FFFAF0;
+	letter-spacing: 1px;
+  	text-align: center;
+ 	padding: 2rem;
+  	border-bottom: 1px solid #94D9EA;
+  	padding-bottom: 50px;
+}
+
+.contact ul {
+	padding-left: 25%;
+	text-align: left;
+	font-size: 75%;
+	display: inline;  
+}
+
+.contact ul i{
+	padding: rem;
+	padding-left: 20px;
+	text-align: left;
+	font-size: 100%;
+	color: #94D9EA;  
+  }
