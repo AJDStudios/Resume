@@ -52,7 +52,6 @@ Designing this block by block
             - Simplify CSS
             - Add Russian
             - recruiter and name page if I really want them. 
-
         issues
             - light/dark toggle not working. 
             - contact form is not working
