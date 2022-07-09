@@ -98,7 +98,7 @@ const updateRecaptchaToken = (token: string | null) => {
           <ReCAPTCHA
             ref={recaptchaRef}
             sitekey={recaptchaKey}
-            OnChange={updateRecaptchaToken}
+            onChange={updateRecaptchaToken}
           />
           <button disabled={submitting} className="submit">
             {submitting ? 'Submitting...' : 'Submit'}

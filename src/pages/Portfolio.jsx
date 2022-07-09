@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect";
 import title from "./images/title.jpg";
 import friends from "./images/friends.png";
 import fravashiad from "./images/fravashiad.png";
@@ -14,9 +15,52 @@ import youngjo from "./images/youngjo.png";
 export default function Portfolio() {
     return (
         <>
-            <div class="openp">
+            <div className="openp">
                 <h1>Aaron James Dodd</h1>
-                <h1 class="openportfolio"></h1>
+                <Typewriter className="typewriter" 
+  
+                    onInit={(typewriter)=> {
+
+                    typewriter
+   
+                    .typeString("Entrepeneur")
+                        
+                    .pauseFor(1000)
+                    .deleteAll()
+                   
+                    .typeString("Designer")
+                    
+                    .pauseFor(1000)
+                    .deleteAll()
+
+                    .typeString("Indie Game Dev")
+                        
+                    .pauseFor(1000)
+                    .deleteAll()
+
+                    .typeString("Composer")
+                        
+                    .pauseFor(1000)
+                    .deleteAll()
+
+                    .typeString("Writer")
+                        
+                    .pauseFor(1000)
+                    .deleteAll()
+
+                    .typeString("Freelancer")
+                        
+                    .pauseFor(1000)
+                    .deleteAll()
+
+                    .typeString("Portfolio")
+                        
+                    .pauseFor(1000)
+                    
+                    .start();
+                    
+                    }}
+                />
             </div>
             <div className="portcontainer">
                 <section class="games">

@@ -11,9 +11,14 @@ body {
         margin-right: 0;
 }
 
-body .light {
+#light .body {
     background-color: dimgrey;
     color:  #131313;
+}
+
+#dark .body{
+	background-color: #131313;
+    color: dimgrey;
 }
 
 .container {
@@ -23,6 +28,11 @@ body .light {
 
 ul {
 	list-style: none;
+	align-content: center;
+	text-align: center;
+	font-size: 32px;
+	padding: 1rem;
+	letter-spacing: 3px;
 }
 
 a {
@@ -49,7 +59,7 @@ h3 {
 
 h4 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 24px;
+	font-size: 40px;
 	padding: 3rem;
 	text-transform: uppercase;
 	text-decoration: underline;
@@ -59,6 +69,9 @@ h4 {
 p{
 	padding: 0rem;
 	font-size: 16px;
+	align-content: center;
+	text-align: center;
+	letter-spacing: 3px;
 }
 
 nav {
@@ -145,7 +158,6 @@ nav {
 	width: 25px;
 	height: auto;
 }
-
 
 /*ligh/dark toggle*/
 .darktoggle .checkbox {
@@ -403,41 +415,19 @@ nav {
 }
 
 .openp {
-	min-height: 30vh;
+	min-height: 20vh;
    	background: #2F4F4F;
    	vertical-align: top;
    	display: inline-block;
-   	text-align: center;
    	width: 100%;
-}
-
-.openp h1 {
-   font-weight: 700;
-   text-align: center;
-   font-size: 32px;
-   font-family: 'Nunito', sans-serif;
-   text-transform: uppercase;
-   padding: 2rem;
-   letter-spacing: 3px;
-   color: dimgray;
-}
-
-.openportfolio::after {
-   content: "";
-   width: 1px;
-   height: 3px;
-   right: 1px;
-   border-right: 1px solid dimgray; 
-   animation: blink 0.5s infinite ease;
-}
-
-@keyframes blink {
-   0%{
-	   opacity: 0;
-   }
-   100%{
-	   opacity: 1;
-   }				
+	font-weight: 700;
+	text-align: center;
+	font-size: 32px;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	padding: 2rem;
+	letter-spacing: 3px;
+	color: dimgray;
 }
 
 .portcontainer{
@@ -522,8 +512,8 @@ img {
 }
 
 .submit {
-	background-color: dimgray;
-	color: #2F4F4F;
+	background-color: #2F4F4F;
+	color: dimgrey;
 	font-size: 32px;
 	width: 100%;
 	Height: 3rem;
@@ -542,26 +532,27 @@ img {
   }
 
   .contact {
+	display: flex;
+	align-content: center;
+	justify-content: center;
 	font-size: 2rem;
-	color: #FFFAF0;
+	color: dimgrey;
 	letter-spacing: 1px;
-  	text-align: center;
- 	padding: 3rem;
-  	border-bottom: 1px solid #94D9EA;
-  	padding-bottom: 50px;
+ 	padding: 1.5rem;
+  	
 }
 
 .contact ul {
-	padding-left: 25%;
 	text-align: left;
 	font-size: 75%;
 	display: inline;  
 }
 
 .contact ul i{
-	padding: rem;
+	padding: 1rem;
 	padding-left: 20px;
 	text-align: left;
 	font-size: 100%;
-	color: #94D9EA;  
+	color: #2F4F4F;  
   }
+

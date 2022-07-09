@@ -11,10 +11,10 @@ export default function Skills() {
                 <section className="Devskills">
                     <ul>
                         <h4>Code and script skills</h4>
-                        <li> Python - Mostly in the context of game dev - but I can also use Flask </li>
                         <li> Git/Github </li>
                         <li> HTML/CSS </li>
                         <li> Javascript </li>
+                        <li> Python - Mostly in the context of game dev - but I can also use Flask </li>
                         <li> Java - experience in the context of game plugins </li>
                     </ul> 
                 </section>
@@ -32,6 +32,7 @@ export default function Skills() {
                     <div>
                         <ul className="othersw">
                             <h4>Other Software</h4>
+                            <li> RPG Maker</li>
                             <li> Daz 3D</li>
                             <li> Gimp </li>
                             <li> Paint3D </li>

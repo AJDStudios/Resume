@@ -39,14 +39,14 @@ Designing this block by block
  - Added static contact info
  - cleaned up some CSS
  - custom icon added
+ - Cleaned up CSS for Contact
+ - As a lot of what I did in JS originally is easier in React, I will leave the JS file as reference. 
+ - Typewriter effect redone
 
         Essential additions
             - Burger functions with JSX
-            - Typewriter animation works on portfolio page - if I can't get this working with JSX, I'll do it with CSS
-            - light dark toggle functionality
             - Carousel functionality
             - CSS for skill page
-            - CSS for Contact
             - animate skill header
             - animate contact header
             - debug contact issue
@@ -56,3 +56,6 @@ Designing this block by block
             - animate the other headers
             - Add Russian
             - recruiter and name page if I really want them. 
+
+        issues
+            - light/dark toggle not working. 
