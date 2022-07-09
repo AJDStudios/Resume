@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.ed0ad39c.css",
-    "main.js": "/Resume/static/js/main.d7abd99b.js",
+    "main.css": "/Resume/static/css/main.35d28401.css",
+    "main.js": "/Resume/static/js/main.c59d0551.js",
     "static/media/friends.png": "/Resume/static/media/friends.eb970c72b2c2d1e85f3f.png",
     "static/media/genericdemons.png": "/Resume/static/media/genericdemons.0f22cfe2acd7a087c730.png",
     "static/media/fravashijolana.jpg": "/Resume/static/media/fravashijolana.c2e8d63e1ff6a207b21c.jpg",
@@ -16,11 +16,11 @@
     "static/media/profiledark.jpg": "/Resume/static/media/profiledark.d50904a59299c4fff73f.jpg",
     "static/media/aden.gif": "/Resume/static/media/aden.e1d69cd4952b1e0f15f1.gif",
     "index.html": "/Resume/index.html",
-    "main.ed0ad39c.css.map": "/Resume/static/css/main.ed0ad39c.css.map",
-    "main.d7abd99b.js.map": "/Resume/static/js/main.d7abd99b.js.map"
+    "main.35d28401.css.map": "/Resume/static/css/main.35d28401.css.map",
+    "main.c59d0551.js.map": "/Resume/static/js/main.c59d0551.js.map"
   },
   "entrypoints": [
-    "static/css/main.ed0ad39c.css",
-    "static/js/main.d7abd99b.js"
+    "static/css/main.35d28401.css",
+    "static/js/main.c59d0551.js"
   ]
 }
