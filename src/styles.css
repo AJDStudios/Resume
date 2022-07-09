@@ -385,18 +385,19 @@ nav {
 	vertical-align: top;
     display: inline-block;
     text-align: center;
+	align-content: center;
     width: 100%;
 }
 
 .open h1 {
 	font-weight: 700;
     text-align: center;
-    font-size: 40px;
+    font-size: 42px;
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
-	padding: 4rem;
+	padding: 5rem;
     background: linear-gradient(90deg, #000, #fff, #000);
-    letter-spacing: 5px;
+    letter-spacing: 3px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -415,7 +416,7 @@ nav {
 }
 
 .openp {
-	min-height: 20vh;
+	min-height: 30vh;
    	background: #2F4F4F;
    	vertical-align: top;
    	display: inline-block;
@@ -559,9 +560,10 @@ img {
 .name {
 	min-height: 20vh;
     background: #2F4F4F;
-	color: dimgrey;
+	vertical-align: top;
     display: inline-block;
     text-align: center;
+	align-content: center;
     width: 100%;
 }  
 
@@ -586,10 +588,10 @@ img {
 .opens {
 	min-height: 20vh;
     background: #2F4F4F;
-	color: dimgrey;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+	vertical-align: top;
+    display: inline-block;
+    text-align: center;
+	align-content: center;
     width: 100%;
 }
 
@@ -604,7 +606,6 @@ img {
   
   .opens label {
 	position: relative;
-	display: flex;
   }
 
 input[type="checkbox"] {

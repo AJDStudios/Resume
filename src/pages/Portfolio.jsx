@@ -91,19 +91,19 @@ export default function Portfolio() {
                         <i class="fas fa-arrow-left" id="prevBtn"></i>
                         <i class="fas fa-arrow-right" id="nextBtn"></i>
                         <div class="carousel-slide">
-                            <img id="lastclone" src={ friends } />
-                            <img src={ title } />
-                            <img src={ genericdemons } />
-                            <img src={ fravashiad } />
-                            <img src={ triad } />
-                            <img src={ dissolve } />
-                            <img src={ sonny } />
-                            <img src={ youngjo } />
-                            <img src={ teenjo } />
-                            <img src={ fravashijolana } />
-                            <img src={ kreagore } />
-                            <img src={ friends } />
-                            <img id="firstclone" src={ title } />
+                            <img id="lastclone" src={ friends } alt=""/>
+                            <img src={ title } alt=""/>
+                            <img src={ genericdemons } alt=""/>
+                            <img src={ fravashiad } alt=""/>
+                            <img src={ triad } alt=""/>
+                            <img src={ dissolve } alt=""/>
+                            <img src={ sonny } alt=""/>
+                            <img src={ youngjo } alt=""/>
+                            <img src={ teenjo } alt=""/>
+                            <img src={ fravashijolana } alt=""/>
+                            <img src={ kreagore } alt=""/>
+                            <img src={ friends } alt=""/>
+                            <img id="firstclone" src={ title } alt=""/>
                         </div>
                         <p>All 3D models are made using daz 3D. Post work is handled with a combination of Gimp, Paint(vanilla and 3D), and PhotoEditor</p>
                     </div>
