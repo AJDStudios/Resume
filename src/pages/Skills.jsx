@@ -3,9 +3,33 @@ import React from "react";
 export default function Skills() {
     return (
         <>
-            <div className="open">
-                <h1 className="name">Skills And</h1>
-                <h1 className="title">Software Knowledge</h1>
+            <div className="opens">
+                <ul>
+                    <li>
+                        <input type="checkbox" />
+                        <div>S</div>
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        <div>K</div>
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        <div>I</div>
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        <div>L</div>
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        <div>L</div>
+                    </li>
+                    <li>
+                        <input type="checkbox" />
+                        <div>S</div>
+                    </li>
+                </ul>
             </div>
             <div className="skills">
                 <section className="Devskills">

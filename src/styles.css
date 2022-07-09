@@ -556,3 +556,98 @@ img {
 	color: #2F4F4F;  
   }
 
+.name {
+	min-height: 20vh;
+    background: #2F4F4F;
+	color: dimgrey;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}  
+
+.name span {
+	text-align: center;
+	align-content: center;
+	display: inline-block;
+	padding: 1.5rem;
+	padding-top: 7rem;
+	font-size: 40px;
+	text-transform: uppercase;
+	animation: flip 5s infinite;
+	animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+	0%,80% {
+	  transform: rotateY(360deg) 
+	}
+}
+
+.opens {
+	min-height: 20vh;
+    background: #2F4F4F;
+	color: dimgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+}
+
+.opens ul {
+	position: relative;
+	display: flex;
+  }
+  
+  .opens li {
+	list-style: none;
+  }
+  
+  .opens label {
+	position: relative;
+	display: flex;
+  }
+
+input[type="checkbox"] {
+	opacity: 0;
+	position: absolute;
+	cursor: pointer;
+	height: 80px;
+	width: 80px;
+	z-index: 100;
+  }
+  
+  .opens div {
+	position: relative;
+	height: 80px;
+	width: 80px;
+	background: #18191f;
+	color: dimgrey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 46px;
+	cursor: pointer;
+	margin: 0 4px;
+	border-radius: 20px;
+	box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+	  4px 4px 6px rgba(0, 0, 0, 0.2),
+	  inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+	  inset 1px 1px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="checkbox"]:checked ~ div {
+	box-shadow: inset 0 0 2px rgba(255, 255, 255, 0.05),
+	  inset 4px 4px 6px rgba(0, 0, 0, 0.2);
+	color: yellow;
+	text-shadow: 0 0 15px yellow, 0 0 25px yellow;
+	animation: glow 1.5s linear infinite;
+  }
+  
+  @keyframes glow {
+	0% {
+	  filter: hue-rotate(0deg);
+	}
+	100% {
+	  filter: hue-rotate(360deg);
+	}
+  }

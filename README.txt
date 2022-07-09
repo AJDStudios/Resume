@@ -50,7 +50,7 @@ Designing this block by block
             - animate skill header
             - animate contact header
             - debug contact issue
-            - Test (and improve) reactivity as much as time allows 
+            - Test (and improve) responsiveness as much as time allows 
         Extra (time allowing)
             - Simplify CSS
             - animate the other headers

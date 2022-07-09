@@ -5,7 +5,16 @@ export default function Contact() {
     return (
         <>
             <div className="open">
-                <h1 className="name">Contact AD</h1>
+				<div className="name">
+					<span>C</span>
+					<span>o</span>
+					<span>n</span>
+					<span>t</span>
+					<span>a</span>
+					<span>c</span>
+					<span>t</span>
+					<span>.</span>
+				</div>
             </div>
             <ContactForm />
             <div className="contact">
