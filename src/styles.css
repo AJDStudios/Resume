@@ -329,7 +329,6 @@ nav {
 	transform: rotate(45deg) translate(-5px, -6px);
 }
 
-
 .aboutme {
 	font-family: 'Nunito', sans-serif;
 	text-align: center;
@@ -391,7 +390,7 @@ nav {
     -webkit-text-fill-color: transparent;
     background-repeat: no-repeat;
     background-size: 80%;
-    animation: shine 10s linear infinite;
+    animation: shine 8s linear infinite;
   }
 
 @keyframes shine {
@@ -514,21 +513,40 @@ img {
 	display: flex;
 	align-content: center;
 	justify-content: center;
+	padding: 3rem;
+	font-size: 32px;
+}
+
+.subform {
+	padding: 2rem;
 }
 
 .submit {
-	background-color: #2F4F4F;
-	color: dimgray;
+	background-color: dimgray;
+	color: #2F4F4F;
+	font-size: 32px;
 	width: 100%;
-	Height: auto;
+	Height: 3rem;
 }
 
-.contact {
+  input {
+	padding: 0.5rem;
+	background-color: #2F4F4F;
+	width: 100%;
+  }
+
+  textarea{
+	padding: 2rem;
+	background-color: #2F4F4F;
+	width: 100%;
+  }
+
+  .contact {
 	font-size: 2rem;
 	color: #FFFAF0;
 	letter-spacing: 1px;
   	text-align: center;
- 	padding: 2rem;
+ 	padding: 3rem;
   	border-bottom: 1px solid #94D9EA;
   	padding-bottom: 50px;
 }

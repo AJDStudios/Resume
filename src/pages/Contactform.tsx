@@ -82,7 +82,7 @@ const updateRecaptchaToken = (token: string | null) => {
           {message.text}
         </div>
         )}
-        <form className="subform" onSubmit = {submitForm}>
+        <form className="flex flex-col" onSubmit = {submitForm}>
           <div>
             <label htmlFor="name">Name</label>
             <input onChange={updateFormControl} type="text" className="contactname" id="name" value={formState.name} />

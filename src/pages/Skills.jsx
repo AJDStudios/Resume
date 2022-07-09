@@ -3,6 +3,10 @@ import React from "react";
 export default function Skills() {
     return (
         <>
+            <div className="open">
+                <h1 className="name">Skills And</h1>
+                <h1 className="title">Software Knowledge</h1>
+            </div>
             <div className="skills">
                 <section className="Devskills">
                     <ul>
