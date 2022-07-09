@@ -41,21 +41,18 @@ Designing this block by block
  - custom icon added
  - Cleaned up CSS for Contact
  - As a lot of what I did in JS originally is easier in React, I will leave the JS file as reference. 
- - Typewriter effect redone
+ - Typewriter effect redone.
+ - All hero animations done. 
 
         Essential additions
             - Burger functions with JSX
             - Carousel functionality
-            - CSS for skill page
-            - animate skill header
-            - animate contact header
-            - debug contact issue
             - Test (and improve) responsiveness as much as time allows 
         Extra (time allowing)
             - Simplify CSS
-            - animate the other headers
             - Add Russian
             - recruiter and name page if I really want them. 
 
         issues
             - light/dark toggle not working. 
+            - contact form is not working
