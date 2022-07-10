@@ -461,8 +461,8 @@ nav {
 .carousel {
 	margin: auto;
 	border: 5px solid black;
-    width: 60%;
-    height: 700px;
+    width: 42%;
+    height: 300px;
     overflow: hidden; 
 }
 

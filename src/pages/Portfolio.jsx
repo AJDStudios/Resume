@@ -60,7 +60,7 @@ export default function Portfolio() {
                         <h3>Demons:Genesis the RPG</h3>
                         <p class="portnote">Note 1 * The videos may require some loading time - this is to prevent non-essential cookies tracking you here, but if you prefer the quicker video with cookies - watching on YouTube will be faster *</p>
                         <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Jdhs5-FWpYo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aRoYfyIdp0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
                         <p>Made with the RPG maker engine and Java plugins (for example the "breathing enemies). OST (mostly), original artwork (ongoing)"</p> 
                         <p>The original game has 25-40 hours of gameplay available. Now I'm working on replacing engine features with my own and making the game bigger.</p> 
                         <p>The original is fully functional, if less pretty. There is a more up-to-date and full-version gameplay <a href="https://youtu.be/vPeS85kVHEk" target="_blank"> <span>video</span></a> but it takes longer to get into the game and there is an active chat.</p>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                         <h3>Demons:Genesis VN</h3>
                         <p class="portnote">Note 1 * The videos may require some loading time - this is to prevent non-essential cookies tracking you here, but if you prefer the quicker video with cookies - watching on YouTube will be faster *</p>
                         <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
-                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aRoYfyIdp0w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aRoYfyIdp0w" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         <p>made with Ren-py (Python)</p>
                         <p>The majority of the other project displays here are part of the design phase of this particular game - OST, sounds, art, story.</p>
                         <p>features to present are limited beyond the GUI for now</p>

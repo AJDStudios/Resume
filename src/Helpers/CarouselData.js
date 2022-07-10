@@ -1,14 +1,14 @@
-import title from "./images/title.jpg";
-import genericdemons from "./images/genericdemons.png";
-import triad from "./images/triad.png";
-import dissolve from "./images/dissolve.png";
-import friends from "./images/friends.png";
-import kreagore from "./images/kreagore.png";
-import sonny from "./images/sonny.png";
-import youngjo from "./images/youngjo.png";
-import teenjo from "./images/teenjo.png";
-import fravashijolana from "./images/fravashijolana.jpg";
-import fravashiad from "./images/fravashiad.png";
+import title from "./images/title.webp";
+import genericdemons from "./images/genericdemons.webp";
+import triad from "./images/triad.webp";
+import dissolve from "./images/dissolve.webp";
+import friends from "./images/friends.webp";
+import kreagore from "./images/kreagore.webp";
+import sonny from "./images/sonny.webp";
+import youngjo from "./images/youngjo.webp";
+import teenjo from "./images/teenjo.webp";
+import fravashijolana from "./images/fravashijolana.webp";
+import fravashiad from "./images/fravashiad.webp";
 
 export const images = [
     { 
