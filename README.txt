@@ -44,13 +44,14 @@ Designing this block by block
  - Typewriter effect redone.
  - All hero animations done. 
  - Carousel works again
+ - converted images and videos to WebP and WebM files.
 
         Essential additions
             - Burger functionality
             - Test (and improve) responsiveness as much as time allows 
+        issues
+            - light/dark toggle not working. 
+            - contact form is not working.
         Extra (time allowing)
             - Simplify CSS
             - Add Russian
-        issues
-            - light/dark toggle not working. 
-            - contact form is not working
