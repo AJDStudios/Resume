@@ -44,7 +44,7 @@ Designing this block by block
  - Typewriter effect redone.
  - All hero animations done. 
  - Carousel works again
- - converted images and videos to WebP and WebM files.
+ - converted images and videos to WebP and WebM files. (one still downloading)
 
         Essential additions
             - Burger functionality
