@@ -1,16 +1,7 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import title from "./images/title.jpg";
-import friends from "./images/friends.png";
-import fravashiad from "./images/fravashiad.png";
-import fravashijolana from "./images/fravashijolana.jpg";
-import dissolve from "./images/dissolve.png";
-import genericdemons from "./images/genericdemons.png";
-import kreagore from "./images/kreagore.png";
-import sonny from "./images/sonny.png";
-import teenjo from "./images/teenjo.png";
-import triad from "./images/triad.png";
-import youngjo from "./images/youngjo.png";
+import Carousel from "./Carousel.js"
+
 
 export default function Portfolio() {
     return (
@@ -85,29 +76,7 @@ export default function Portfolio() {
                         <p>features to present are limited beyond the GUI for now</p>
                     </section>
                 </section>    
-                <section class="Art">
-                    <h2>Art for VN</h2>
-                    <div class="carousel-container">
-                        <i class="fas fa-arrow-left" id="prevBtn"></i>
-                        <i class="fas fa-arrow-right" id="nextBtn"></i>
-                        <div class="carousel-slide">
-                            <img id="lastclone" src={ friends } alt=""/>
-                            <img src={ title } alt=""/>
-                            <img src={ genericdemons } alt=""/>
-                            <img src={ fravashiad } alt=""/>
-                            <img src={ triad } alt=""/>
-                            <img src={ dissolve } alt=""/>
-                            <img src={ sonny } alt=""/>
-                            <img src={ youngjo } alt=""/>
-                            <img src={ teenjo } alt=""/>
-                            <img src={ fravashijolana } alt=""/>
-                            <img src={ kreagore } alt=""/>
-                            <img src={ friends } alt=""/>
-                            <img id="firstclone" src={ title } alt=""/>
-                        </div>
-                        <p>All 3D models are made using daz 3D. Post work is handled with a combination of Gimp, Paint(vanilla and 3D), and PhotoEditor</p>
-                    </div>
-                </section>
+                <Carousel />
             </div>
         </>
     );

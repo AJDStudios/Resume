@@ -1,5 +1,5 @@
 import React from "react";
-import profiledark from "./images/profiledark.jpg";
+import profiledark from "./profiledark.jpg";
 
 export default function About() {
     return (
