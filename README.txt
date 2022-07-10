@@ -43,15 +43,14 @@ Designing this block by block
  - As a lot of what I did in JS originally is easier in React, I will leave the JS file as reference. 
  - Typewriter effect redone.
  - All hero animations done. 
+ - Carousel works again
 
         Essential additions
-            - Burger functions with JSX
-            - Carousel functionality
+            - Burger functionality
             - Test (and improve) responsiveness as much as time allows 
         Extra (time allowing)
             - Simplify CSS
             - Add Russian
-            - recruiter and name page if I really want them. 
         issues
             - light/dark toggle not working. 
             - contact form is not working
