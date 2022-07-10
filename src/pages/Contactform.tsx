@@ -14,8 +14,8 @@ type ServiceMessage = {
   text: string;
 }
 
-const formId = "IwLrQskq";
-const formSparkUrl = "https://submit-form.com/${formId}";
+const formId = 'IwLrQskq';
+const formSparkUrl = `https://submit-form.com/${formId}`;
 const recaptchaKey = '6LeeSrsgAAAAAC77Qq93jjwwlvfUDSyyJQTDhbPW';
 
 
@@ -100,7 +100,7 @@ const updateRecaptchaToken = (token: string | null) => {
             sitekey={recaptchaKey}
             onChange={updateRecaptchaToken}
           />
-          <button disabled={submitting} className="submit">
+          <button type="submit" disabled={submitting} className="submit">
             {submitting ? 'Submitting...' : 'Submit'}
           </button>
         </form>

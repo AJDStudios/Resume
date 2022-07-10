@@ -45,13 +45,13 @@ Designing this block by block
  - All hero animations done. 
  - Carousel works again
  - converted images and videos to WebP and WebM files. (one still downloading)
+ - fixed contact form
 
         Essential additions
             - Burger functionality
             - Test (and improve) responsiveness as much as time allows 
         issues
             - light/dark toggle not working. 
-            - contact form is not working.
         Extra (time allowing)
             - Simplify CSS
             - Add Russian
