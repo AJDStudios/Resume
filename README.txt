@@ -52,11 +52,11 @@ Designing the current iteration (flask origin) block by block
  - All hero animations done. 
  - Carousel works again
  - converted images and videos to WebP and WebM files.
+ - worked on general CSS responsiveness. 
 
         Known issues in order of priority
-            - General responsivness fell behind and needs addressing
             - Burger functionality
-            - the route for "/" needs to drop the "Resume" route
+            - the route for "/" needs to drop the "Resume" route - fixed it kind of but reverted it until I have a more realistic fix.
             - light and dark toggle
 
         Extra features
