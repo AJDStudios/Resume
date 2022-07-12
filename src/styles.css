@@ -69,6 +69,7 @@ h4 {
 p{
 	padding: 0rem;
 	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
 	align-content: center;
 	text-align: center;
 	letter-spacing: 3px;
@@ -89,6 +90,10 @@ nav {
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	font-size: 20px;	
+}
+
+video {
+	padding: 2rem;
 }
 
 /* need to do some work to get the burger looking good again */

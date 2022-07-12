@@ -13,7 +13,6 @@ export default function Contact() {
 					<span>a</span>
 					<span>c</span>
 					<span>t</span>
-					<span>.</span>
 				</div>
             </div>
             <ContactForm />
