@@ -1,57 +1,66 @@
 # Resume
 A modern CV for frontend software engineer
 
-Now on the seventh iteration of a resume - built a basic HTML and CSS website akin to something I would have made 15 years ago when i did this kind of thing. 
+Reflections from the project
+    - I originally went into this with the mindset "I'll see what I can do". This was fine and I practiced a lot, but after I put the design I wanted on paper and pursued that design, 
+    not knowing how to do much of it, I can safely say this will always be the approach going forward. Have an idea, make that work, not build an idea on what I know works. 
+    - Now that I'm on the seventh iteration of this (Html/css only, with javascript,, game dev style through python, flask and now React.) I do not regret making any of these iterations, 
+    in fact I'm proud that I managed to make each design work.
+    - I started with a mobile first mindset that I lost track of somewhere in the React transition. I can certainly say mobile-first using media-queries to add complexity is a more 
+    sensible approach, but "don't get it right, get it written" took over. I have a decision now, rebuild the CSS with mobile-first in mind, or refine what I have. 
+    The next project will follow a mobile-first mindset, however. 
+    - I've been slow. That makes me a little self-conscious, but I have to keep in mind that I'm working full-time as well, and I have to switch between mindsets for both jobs. 
+    - Mostly, I'm gald I dropped only a couple of planned features (which I can always re-add) I didn't shy away from the unknown, and I gained more from that, than anything else. 
+
+
 
 Core features 
-          - responsive and built with a "mobile-first" mindset. 
-          - built using multiple languages (some of which will be experimental)
-    
+          - responsive and (originally) built with a "mobile-first" mindset. (this particlular work-flow will readress these two points) 
+          - built using multiple languages (a lot of which will be experimental)
+          - Most features added with the mindset "what would you see on a shop website"?
+          - Built with the potential for growth and easy-implementation of new features.   
 
-Designing this block by block
+Designing the current iteration (flask origin) block by block
  - first block was the nav bar (without links) made with Html, CSS and Javascript for the "hamburger"
- - second block was actually the top block - animated splash with my name and job aspired to.
-            TODO:
-                - still need to animate the texts as layers. Probably using javascript. So one writes, fades out, and then is replaced by the other one. Repeat this.
-                - after 5 or 6 repeats - add an easter egg. 
- -Third block was the about section. This is now laid out an has a draft of content.
- - added a dark/light mode toggle (that doesn't actually change the colours yet.) using javascript.
- - added the relevant needed templates (navbar still doesn't link right now but "/" works)  
- - animated the portfolio head
- - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. 
- - imported some portfolio pieces as statics
- - added the footer (still needs some work and the translation button)
- - navbar is now functional  
- - added stage 1 of Easter egg 2 
- - navbar now sticky - but need to change something to put the burger back in position on phone
+ - second block was actually the top block (I moved this back below the navbar) - animated splash with my name and job aspired to.
+ - Third block was the about section. Originally, I planned to add an easter-egg to the image on this page, I will look into this when everything is functional.
+ - added a dark/light mode toggle (later broke this on transition) using javascript.
+ - added the relevant needed templates, need to change the routing of "/" on the live version
+ - animated the portfolio head - this typewriter effect was created four different ways, each time it worked. Javascript, python (2 variants) and now JSX.
+ - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. (this was removed again on the transition to react, I haven't decided whether or not to add these again.) 
+ - imported some portfolio pieces as statics. Over time thee were almost all converted to webP and webM format. 
+ - added the footer. 
+ - navbar became functional  
+ - added stage 1 of Easter egg 2 (redacted) 
+ - navbar now sticky - later broken during transition.
  - added video for RPG
- - added image carousel
+ - added image carousel - three iterations in the end with the current one definitely being the best.
  - blocked as much of the cookie data from YouTube as I know how to do (my ethical hacking still needs a ton of work - red and blue team). 
+ this became a defunct bit of code when the embeds became webM
  - added the VN project video
- - added skills and content content - will style after transfering to React
+ - added skills content - this was styled after the transition to React
  - transferred to a React framework
  - Transferred all content to react framework (without functioning JS)
-                                    Took a few days off for wife's birthday and in general to clear head.
- - Contact form is not mostly up and running, but not functional as intended ((needs debugging) also needs a capcha added to it, but I have to teach so will come later.)
- - First attempt to get this online using githubpages led to only having the readme online... don't understand that, will try again after contact section. 
- - recaptcha added to contact form 
- - it's live.
+                                    Took a few days off for wife's birthday and for migration purposes.
+ - Contact form added, but had a bug for a few days. Added a Recapcha and fixed the bug.
+ - First attempt to get this online using githubpages led to only having the readme online... Took me about a week to get it online, but I did it. 
+  - it's live.
  - Added static contact info
- - cleaned up some CSS
  - custom icon added
  - Cleaned up CSS for Contact
- - As a lot of what I did in JS originally is easier in React, I will leave the JS file as reference. 
- - Typewriter effect redone.
+ - As a lot of what I did in JS originally is different in React, the JS file is still available in the repository commented out for reference. 
  - All hero animations done. 
  - Carousel works again
- - converted images and videos to WebP and WebM files. (one still downloading)
- - fixed contact form
+ - converted images and videos to WebP and WebM files.
 
-        Essential additions
+        Known issues in order of priority
+            - General responsivness fell behind and needs addressing
             - Burger functionality
-            - Test (and improve) responsiveness as much as time allows 
-        issues
-            - light/dark toggle not working. 
-        Extra (time allowing)
-            - Simplify CSS
+            - the route for "/" needs to drop the "Resume" route
+            - light and dark toggle
+
+        Extra features
             - Add Russian
+            - search bar
+            - music player for compositions
+            - the "secret" pages
