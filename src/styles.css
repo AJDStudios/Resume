@@ -66,7 +66,7 @@ h4 {
 	text-align: center;
 }
 
-p{
+p {
 	padding: 0rem;
 	font-size: 16px;
 	font-family: 'Nunito', sans-serif;
@@ -96,7 +96,6 @@ video {
 	padding: 2rem;
 }
 
-/* need to do some work to get the burger looking good again */
 .sticky {
 	position: fixed;
 	top: 0;
@@ -208,142 +207,7 @@ video {
 
 .fa-sun {
 	color: #f39c12;
-}
 
-/* tablet size-ish*/
-@media screen and (max-width: 1180px) {
-	.open {
-		max-height: 15px;
-	}
-	
-	.open h1 {
-		padding: 1.5rem;
-		font-size: 20px;
-	}
-
-	.openp {
-		max-height: 15px;
-	}
-	
-	.openp h1 {
-		padding: 1.5rem;
-		font-size: 32px;
-	}
-
-	.nav-links {
-		min-width: 30%;
-		width: 60%;
-		margin: 10px;
-	}
-
-	.abouttext {
-		width: 60%;
-		font-size: 20px;
-	}
-}
-/* need to flip this so it grows instead of shrinks
-@media screen and (max-width: 768px) {}*/
-
-/* cut-off for mobile */
-@media screen and (max-width: 768px) {
-	body{
-		overflow-x: hidden; 
-		position: relative;
-	} 
-	
-	.open {
-		max-height: 15px;
-	}
-
-	.open h1 {
-		padding: 2.5rem;
-		font-size: 15px;
-	}
-	
-	.nav-links{
-		position: absolute;
-		right: 5px;
-		height: 50vh;
-		top: 33.5vh;
-		background-color: #DCDCDC;
-		display: flex; 
-		flex-direction: column;
-		align-items: center;
-		width: 50%;
-		transform: translateX(100%);
-		transition: transform 0.5s ease-in; 
-	}	
-	
-	.nav-links li{
-		opacity: 0;
-	}
-
-	.burger {
-		display: block;
-	}
-
-	.aboutme {
-		text-align: center;
-		letter-spacing: 3px;
-		padding: 2rem;
-		text-transform: uppercase;
-		
-	}
-	
-	.about {
-		display: flex;
-		flex-basis: 40%;
-		height: 50%;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	.profile {
-		Width: 15%;
-		Height: auto;
-		margin: 1rem;
-		
-	}
-	
-	.abouttext {
-		font-size: 15px;
-		padding-left: none;
-		margin-right: 1px;
-		letter-spacing: 1px;
-	}
-
-	.animated-gif {
-		width: 25px;
-		height: auto;
-	}
-
-}
-
-.nav-active {
-	transform: translateX(0%)
-}
-/*In theory, this creates a sliding effect*/
-@keyframes navLinkFade{
-	from{
-		opacity: 0;
-		transform: translateX(50px);
-	}
-	to{
-		opacity: 1;
-		transform: translateX(0px);
-	}
-}
-/*hamburger to cross */
-.toggle .line1{
-	transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2{
-	opacity: 0;
-}
-
-.toggle .line3{
-	transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .aboutme {
@@ -385,24 +249,20 @@ video {
 }
 
 .open {
-    min-height: 30vh;
-    background: #2F4F4F;
-	vertical-align: top;
-    display: inline-block;
-    text-align: center;
+	min-height: 30vh;
 	align-content: center;
-    width: 100%;
+	background: #2F4F4F;
+	width: 100%;
+ 	text-align: center;
+ 	font-size: 24px;
+ 	font-family: 'Nunito', sans-serif;
+ 	text-transform: uppercase;
+ 	padding: 1rem;
+ 	letter-spacing: 3px;
 }
 
 .open h1 {
-	font-weight: 700;
-    text-align: center;
-    font-size: 42px;
-    font-family: 'Nunito', sans-serif;
-    text-transform: uppercase;
-	padding: 5rem;
     background: linear-gradient(90deg, #000, #fff, #000);
-    letter-spacing: 3px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -667,3 +527,225 @@ input[type="checkbox"] {
 	  filter: hue-rotate(360deg);
 	}
   }
+
+/* tablet size-ish*/
+@media screen and (max-width: 1180px) {
+	.open {
+		min-height: 15vh;
+		background: #2F4F4F;
+		text-align: center;
+		align-content: center;
+		width: 100%;
+	}
+	
+	.open h1 {
+		font-weight: 700;
+		text-align: center;
+		font-size: 24px;
+		font-family: 'Nunito', sans-serif;
+		text-transform: uppercase;
+		padding: 1rem;
+		background: linear-gradient(90deg, #000, #fff, #000);
+		letter-spacing: 1.5px;
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		background-repeat: no-repeat;
+		background-size: 80%;
+		animation: shine 8s linear infinite;
+	}
+
+	.openp {
+		min-height: 20px;
+	}
+	
+	.openp h1 {
+		padding: 1.5rem;
+		font-size: 32px;
+	}
+
+	.nav-links {
+		min-width: 30%;
+		width: 60%;
+		margin: 10px;
+	}
+
+	.abouttext {
+		width: 60%;
+		font-size: 20px;
+	}
+	.opens ul {
+		padding-left: 25rem;
+		font-size: 20px;
+	  }
+	
+	input[type="checkbox"] {
+		height: 40px;
+		width: 40px;
+	  }
+	  
+	  .opens div {
+		height: 40px;
+		width: 40px;
+		font-size: 20px;
+	  }
+}
+/* cut-off for mobile */
+@media screen and (max-width: 768px) {
+	body{
+		overflow-x: hidden; 
+		position: relative;
+	} 
+	
+	.open {
+		min-height: 8px;
+	}
+
+	.open h1 {
+		padding: .5rem;
+		font-size: 20px;
+	}
+
+	h2 {
+		font-family: 'Nunito', sans-serif;
+		font-size: 24px;
+		padding: 1rem;
+		text-transform: uppercase;
+		text-decoration: underline;	
+	}
+	
+	h3 {
+		font-family: 'Nunito', sans-serif;
+		font-size: 24px;
+		padding: 1rem;
+		text-transform: uppercase;
+		text-decoration: underline;
+	
+	}
+	
+	h4 {
+		font-family: 'Nunito', sans-serif;
+		font-size: 24px;
+		padding: 1rem;
+		text-transform: uppercase;
+		text-decoration: underline;
+		text-align: center;
+	}
+	
+	p {
+		padding: 0rem;
+		font-size: 10px;
+		font-family: 'Nunito', sans-serif;
+		align-content: center;
+		text-align: center;
+		letter-spacing: 0px;
+		width: 100%;
+	}
+	
+	.nav-links{
+		position: absolute;
+		right: 5px;
+		height: 50vh;
+		top: 33.5vh;
+		background-color: #DCDCDC;
+		display: flex; 
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in; 
+	}	
+	
+	.nav-links li{
+		opacity: 0;
+	}
+
+	.burger {
+		display: block;
+	}
+
+	.aboutme {
+		text-align: center;
+		letter-spacing: 3px;
+		padding: 2rem;
+		text-transform: uppercase;
+		
+	}
+	
+	.about {
+		display: flex;
+		flex-basis: 40%;
+		height: 50%;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.profile {
+		Width: 15%;
+		Height: auto;
+		margin: 1rem;
+		
+	}
+	
+	.abouttext {
+		font-size: 15px;
+		padding-left: none;
+		margin-right: 1px;
+		letter-spacing: 1px;
+	}
+
+	.animated-gif {
+		width: 25px;
+		height: auto;
+	}
+	
+	video {
+		width: 80%;
+		height: auto;
+		padding: 2rem;
+	}
+
+	.opens ul {
+		padding-left: 3rem;
+		font-size: 20px;
+	  }
+	
+	input[type="checkbox"] {
+		height: 40px;
+		width: 40px;
+	  }
+	  
+	  .opens div {
+		height: 40px;
+		width: 40px;
+		font-size: 20px;
+	  }
+}
+
+.nav-active {
+	transform: translateX(0%)
+}
+/*In theory, this creates a sliding effect*/
+@keyframes navLinkFade{
+	from{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+/*hamburger to cross */
+.toggle .line1{
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+	opacity: 0;
+}
+
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
+
