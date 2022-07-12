@@ -59,7 +59,7 @@ export default function Portfolio() {
                     <h2>Game Projects</h2>
                     <section class="RPG">
                         <h3>Demons:Genesis the RPG</h3>
-                        <p class="portnote">Note 1 * in the interest of file size, I trimmed this YouTube <a href="https://youtu.be/Jdhs5-FWpYo" target="_blank"> <span> YouTube video</span></a> *</p>
+                        <p class="portnote">Note 1 * in the interest of file size, I trimmed this <a href="https://youtu.be/Jdhs5-FWpYo" target="_blank"> <span> YouTube video</span></a> *</p>
                         <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
                         <video src={ RPG } width="600" height="300" controls="controls" />
                         <p>Made with the RPG maker engine and Java plugins (for example the "breathing enemies). OST (mostly), original artwork (ongoing)"</p> 
