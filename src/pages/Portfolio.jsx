@@ -59,7 +59,7 @@ export default function Portfolio() {
                     <h2>Game Projects</h2>
                     <section class="RPG">
                         <h3>Demons:Genesis the RPG</h3>
-                        <p class="portnote">Note 1 * The videos may require some loading time - this is to prevent non-essential cookies tracking you here, but if you prefer the quicker video with cookies - watching on YouTube will be faster *</p>
+                        <p class="portnote">Note 1 * in the interest of file size, I trimmed this YouTube <a href="https://youtu.be/Jdhs5-FWpYo" target="_blank"> <span> YouTube video</span></a> *</p>
                         <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
                         <video src={ RPG } width="600" height="300" controls="controls" />
                         <p>Made with the RPG maker engine and Java plugins (for example the "breathing enemies). OST (mostly), original artwork (ongoing)"</p> 
@@ -69,8 +69,7 @@ export default function Portfolio() {
                     </section>
                     <section class="VN">
                         <h3>Demons:Genesis VN</h3>
-                        <p class="portnote">Note 1 * The videos may require some loading time - this is to prevent non-essential cookies tracking you here, but if you prefer the quicker video with cookies - watching on YouTube will be faster *</p>
-                        <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
+                        <p class="portnote">Note 1 * As these games will be commercial projects - the source code is not available. *</p>
                         <video src={ VN } width="600" height="300" controls="controls" />
                         <p>made with Ren-py (Python)</p>
                         <p>The majority of the other project displays here are part of the design phase of this particular game - OST, sounds, art, story.</p>
