@@ -25,8 +25,6 @@ const navSlide = () => {
 }
 
 navSlide();
-	
- 
 
 //make sure this is only effecting the Portfolio
 //const texts = ["Portfolio", "Designer", "Indie Game Dev", "Composer", "Writer", "Freelancer", "Entrepeneur"];
