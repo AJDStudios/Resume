@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4ce889ba.css",
-    "main.js": "/static/js/main.b3b5e5a5.js",
+    "main.js": "/static/js/main.ed831d92.js",
     "static/media/RPG.webm": "/static/media/RPG.9e112af981535aa77747.webm",
     "static/media/VN.webm": "/static/media/VN.b830c03ec5da507dab4e.webm",
     "static/media/fravashijolana.webp": "/static/media/fravashijolana.ebf8fd23f871e44888c3.webp",
@@ -19,10 +19,10 @@
     "static/media/dissolve.webp": "/static/media/dissolve.46c8ecbed111581d1b28.webp",
     "index.html": "/index.html",
     "main.4ce889ba.css.map": "/static/css/main.4ce889ba.css.map",
-    "main.b3b5e5a5.js.map": "/static/js/main.b3b5e5a5.js.map"
+    "main.ed831d92.js.map": "/static/js/main.ed831d92.js.map"
   },
   "entrypoints": [
     "static/css/main.4ce889ba.css",
-    "static/js/main.b3b5e5a5.js"
+    "static/js/main.ed831d92.js"
   ]
 }
