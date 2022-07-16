@@ -1,6 +1,5 @@
 import React, { FormEvent, useState, ChangeEvent, useRef } from 'react';
 import axios from "axios";
-import { faSpoon } from '@fortawesome/free-solid-svg-icons';
 import ReCAPTCHA from 'react-google-recaptcha';
 
 type FormState = {
