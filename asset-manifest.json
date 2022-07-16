@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ce889ba.css",
-    "main.js": "/static/js/main.ed831d92.js",
-    "static/media/RPG.webm": "/static/media/RPG.9e112af981535aa77747.webm",
-    "static/media/VN.webm": "/static/media/VN.b830c03ec5da507dab4e.webm",
-    "static/media/fravashijolana.webp": "/static/media/fravashijolana.ebf8fd23f871e44888c3.webp",
-    "static/media/friends.webp": "/static/media/friends.0a1389278a28b92a104d.webp",
-    "static/media/profiledark.jpg": "/static/media/profiledark.d50904a59299c4fff73f.jpg",
-    "static/media/genericdemons.webp": "/static/media/genericdemons.641d0b7f15e570ad692e.webp",
-    "static/media/teenjo.webp": "/static/media/teenjo.8da0dc00a275ea43f6ef.webp",
-    "static/media/sonny.webp": "/static/media/sonny.4096babe4b2ef644ed2d.webp",
-    "static/media/kreagore.webp": "/static/media/kreagore.fc9693722e4bb5149c62.webp",
-    "static/media/youngjo.webp": "/static/media/youngjo.bbc30bb3b788f4b0adba.webp",
-    "static/media/fravashiad.webp": "/static/media/fravashiad.e7ef92174afa8c1e6dd2.webp",
-    "static/media/triad.webp": "/static/media/triad.744092cd9c1a85856233.webp",
-    "static/media/title.webp": "/static/media/title.0572c14b22e8bf6b3166.webp",
-    "static/media/aden.gif": "/static/media/aden.e1d69cd4952b1e0f15f1.gif",
-    "static/media/dissolve.webp": "/static/media/dissolve.46c8ecbed111581d1b28.webp",
-    "index.html": "/index.html",
-    "main.4ce889ba.css.map": "/static/css/main.4ce889ba.css.map",
-    "main.ed831d92.js.map": "/static/js/main.ed831d92.js.map"
+    "main.css": "/Resume/static/css/main.4ce889ba.css",
+    "main.js": "/Resume/static/js/main.88e46114.js",
+    "static/media/RPG.webm": "/Resume/static/media/RPG.9e112af981535aa77747.webm",
+    "static/media/VN.webm": "/Resume/static/media/VN.b830c03ec5da507dab4e.webm",
+    "static/media/fravashijolana.webp": "/Resume/static/media/fravashijolana.ebf8fd23f871e44888c3.webp",
+    "static/media/friends.webp": "/Resume/static/media/friends.0a1389278a28b92a104d.webp",
+    "static/media/profiledark.jpg": "/Resume/static/media/profiledark.d50904a59299c4fff73f.jpg",
+    "static/media/genericdemons.webp": "/Resume/static/media/genericdemons.641d0b7f15e570ad692e.webp",
+    "static/media/teenjo.webp": "/Resume/static/media/teenjo.8da0dc00a275ea43f6ef.webp",
+    "static/media/sonny.webp": "/Resume/static/media/sonny.4096babe4b2ef644ed2d.webp",
+    "static/media/kreagore.webp": "/Resume/static/media/kreagore.fc9693722e4bb5149c62.webp",
+    "static/media/youngjo.webp": "/Resume/static/media/youngjo.bbc30bb3b788f4b0adba.webp",
+    "static/media/fravashiad.webp": "/Resume/static/media/fravashiad.e7ef92174afa8c1e6dd2.webp",
+    "static/media/triad.webp": "/Resume/static/media/triad.744092cd9c1a85856233.webp",
+    "static/media/title.webp": "/Resume/static/media/title.0572c14b22e8bf6b3166.webp",
+    "static/media/aden.gif": "/Resume/static/media/aden.e1d69cd4952b1e0f15f1.gif",
+    "static/media/dissolve.webp": "/Resume/static/media/dissolve.46c8ecbed111581d1b28.webp",
+    "index.html": "/Resume/index.html",
+    "main.4ce889ba.css.map": "/Resume/static/css/main.4ce889ba.css.map",
+    "main.88e46114.js.map": "/Resume/static/js/main.88e46114.js.map"
   },
   "entrypoints": [
     "static/css/main.4ce889ba.css",
-    "static/js/main.ed831d92.js"
+    "static/js/main.88e46114.js"
   ]
 }
