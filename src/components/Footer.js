@@ -3,6 +3,7 @@ import Gif from "./aden.gif";
 
 export const ThemeContext = createContext(null);
 
+//this isn't working - Priority 2
 export default function Footer () {
     const [theme, setTheme] = useState("dark")
 

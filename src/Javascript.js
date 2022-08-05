@@ -1,5 +1,5 @@
 
-
+// this is now priority one
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
@@ -51,7 +51,7 @@ navSlide();
 
 //})();
 
-//// dark/light toggle
+// dark/light toggle
 //const chk = document.getElementById('chk');
 
 //chk.addEventListener('change', () => {
@@ -59,9 +59,10 @@ navSlide();
 //});
 
 
-//// works, but cuts off content on mobile size
+// works, but cuts off content on mobile size
 window.onscroll = function() {myFunction()};
 
+//!PRIORITY 1B
 // grabs the nav
 var navbar = document.getElementById("navbar");
 
