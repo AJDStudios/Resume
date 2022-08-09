@@ -67,8 +67,9 @@ Designing the current iteration (flask origin - to React) block by block
         
                                                --  Current Workflow until 12/08/22  --
             Fri 05/08 - reaquint with code and comment - [x]. 
-            Mon 08/08 Burger functionality [] and sticky navbar.[]
-            Tues 09/08 light and dark toggle []
+            Mon 08/08 Burger functionality [/] and sticky navbar.[0] - 08/08 was ambitious... obviously. The current solutuion (commented) works, but it needs some editing and some 
+            stricter division - will merge this with the CSS rework. 
+            Tues 10/08 light and dark toggle []
             Wed 10/08 the route for "/" needs to drop the "Resume" root - fixed it kind of but reverted it until I have a more realistic fix. []
             Thurs 11/08 work on the load speed []
             fri 12/08 tidy up current code (ES6 and tighten CSS - remove redundancy, speed up if possible) []
