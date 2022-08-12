@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Skills from "./pages/Skills";
@@ -17,7 +17,7 @@ function App() {
   };
   return (
     <>
-      <Navbar />
+      <Header />
       <ThemeContext.Provider value={{ theme, toggleTheme }}> 
           <Routes id="dark">
             <Route path="/" element={<Portfolio />} />
