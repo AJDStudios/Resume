@@ -64,21 +64,22 @@ Designing the current iteration (flask origin - to React) block by block
  - converted images and videos to WebP and WebM files.
  - worked on general CSS responsiveness. 
         
-                                             -- First applications sent - round ended 31/07/22 --
+                                                -- First applications sent - round ended 31/07/22 --
  - reqaquinted with code and commented for better longevity of understanding
  - Burger functional
  - looked at routing - decided to postpone as not really a priority over functionality
- - started work on tidying up CSS - still requires more                                       
+ - started work on tidying up CSS - still requires more  
+ - fixed some console warnings                                     
                                             --  Workflow ended 12/08/22 (break on 10th for anniversary) --
-            - work on the load speed []
-            - clean up CSS []
-            - final commit []
-            - redeploy []
 
-                                            -- current workflow until 19/08/22 --
+                                                        -- current workflow until 19/08/22 --
+            - clean up CSS []
+            - work on the load speed []
             - light and dark toggle []
             - burger to cross or don't bother?
-                                               -- Potential Extra Features  --
+            - final commit []
+            - redeploy []
+                                                            -- Potential Extra Features  --
             - Switch to a custom domain (not a priority as I see it - functionality first) []                                   
             - Add Russian []
             - search bar (will tackle this elsewhere, but maybe transfer afterwards) []

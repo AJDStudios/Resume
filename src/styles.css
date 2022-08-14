@@ -26,7 +26,7 @@ body {
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	font-size: 18px;
+	font-size: 16px;
 	background-color:  #DCDCDC;
 	color:dimgrey;
 	width: 100%;
@@ -36,7 +36,7 @@ body {
 .menu {
 	position: fixed;
 	background-color: #DCDCDC;
-	font-size: 12px;
+	font-size: 10px;
 	top: 0;
 	left: 0;
 	width: 80%;
@@ -54,19 +54,29 @@ body {
 
 @media screen and (min-width: 768px) 
 {
-	.nav {
+	.burger  {
 		display: none;
 	}
 
-	.nav-links li {
-		list-style: none;
+	.menumask {
+		display: none;
+	}
+/* not doing what you want it to*/
+	.nav-links {
+		color: dimgray;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 20px;
 	}
 
-	.nav-links a {
-		color: dimgray;
-		letter-spacing: 3px;
-		font-weight: bold;
-		font-size: 14px;
+	.nav-links li {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		font-size: 10px;
+		background-color: #DCDCDC;
+		font-family: 'Poppins', sans-serif;
 	}
 }
 /*#light .body {
@@ -88,7 +98,7 @@ ul {
 	list-style: none;
 	align-content: center;
 	text-align: center;
-	font-size: 32px;
+	font-size: 16px;
 	padding: 1rem;
 	letter-spacing: 3px;
 }

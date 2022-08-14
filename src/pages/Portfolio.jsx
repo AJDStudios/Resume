@@ -55,20 +55,20 @@ export default function Portfolio() {
                 />
             </div>
             <div className="portcontainer">
-                <section class="games">
+                <section className="games">
                     <h2>Game Projects</h2>
-                    <section class="RPG">
+                    <section className="RPG">
                         <h3>Demons:Genesis the RPG</h3>
-                        <p class="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
+                        <p className="portnote">note 2 * As these games will be commercial projects - the source code is not available. *</p>
                         <video src={ RPG } width="600" height="300" controls="controls" />
                         <p>Made with the RPG maker engine and Java plugins (for example the "breathing enemies). OST (mostly), original artwork (ongoing)"</p> 
                         <p>The original game has 25-40 hours of gameplay available. Now I'm working on replacing engine features with my own and making the game bigger.</p> 
-                        <p>The original is fully functional, if less pretty. There is a more up-to-date and full-version gameplay <a href="https://youtu.be/vPeS85kVHEk" target="_blank"> <span>video</span></a> but it takes longer to get into the game and there is an active chat.</p>
-                        <a href="https://discord.gg/tMMVKstvac" target="_blank"><span>Both the original game and the current version of the new game can be downloaded for free directly via the linked discord</span></a>
+                        <p>The original is fully functional, if less pretty. There is a more up-to-date and full-version gameplay <a href="https://youtu.be/vPeS85kVHEk" target="_blank" rel="noreferrer"> <span>video</span></a> but it takes longer to get into the game and there is an active chat.</p>
+                        <a href="https://discord.gg/tMMVKstvac" target="_blank" rel="noreferrer" ><span>Both the original game and the current version of the new game can be downloaded for free directly via the linked discord</span></a>
                     </section>
-                    <section class="VN">
+                    <section className="VN">
                         <h3>Demons:Genesis VN</h3>
-                        <p class="portnote">Note 1 * As these games will be commercial projects - the source code is not available. *</p>
+                        <p className="portnote">Note 1 * As these games will be commercial projects - the source code is not available. *</p>
                         <video src={ VN } width="600" height="300" controls="controls" />
                         <p>made with Ren-py (Python)</p>
                         <p>The majority of the other project displays here are part of the design phase of this particular game - OST, sounds, art, story.</p>
