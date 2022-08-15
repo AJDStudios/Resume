@@ -3,10 +3,9 @@
 	- simplify
 	- look for redundancies
 	- light mode toggle (obv)
-	- burger functionality
 	- speed options here?*/
 
-
+/*whole page*/
 *{
 	padding: 0;
 	margin: 0;
@@ -17,19 +16,21 @@ body {
     background-color: #131313;
     color: dimgrey;
     overflow-x: hidden;
-    height: 100%;
 	Width: 100%;
 }
 
 .header {
 	display: flex;
+	position: fixed;
+	z-index: 999;
+	top: 0;
+	width: 100%;
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
 	font-size: 16px;
 	background-color:  #DCDCDC;
 	color:dimgrey;
-	width: 100%;
 	font-family: 'Poppins', sans-serif;
 }
   
@@ -40,58 +41,16 @@ body {
 	top: 0;
 	left: 0;
 	width: 80%;
-	height: 100%;
+	height: 25%;
 }
 
 .menumask {
 	position: fixed;
-	background-color: black;
+	background-color: #2F4F4F;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 100%;
-}
-
-@media screen and (min-width: 768px) 
-{
-	.burger  {
-		display: none;
-	}
-
-	.menumask {
-		display: none;
-	}
-/* not doing what you want it to*/
-	.nav-links {
-		color: dimgray;
-		text-transform: uppercase;
-		letter-spacing: 5px;
-		font-size: 20px;
-	}
-
-	.nav-links li {
-		display: flex;
-		justify-content: space-around;
-		align-items: center;
-		min-height: 8vh;
-		font-size: 10px;
-		background-color: #DCDCDC;
-		font-family: 'Poppins', sans-serif;
-	}
-}
-/*#light .body {
-    background-color: dimgrey;
-    color:  #131313;
-}
-
-#dark .body{
-	background-color: #131313;
-    color: dimgrey;
-}*/
-
-.container {
-	margin: 1rem;
-	text-align: center;
+	height: 25%;
 }
 
 ul {
@@ -108,18 +67,22 @@ a {
     text-decoration: none;
 }
 
+h1 {
+	padding: 1rem;
+}
+
 h2 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 36px;
-	padding: 4rem;
+	font-size: 28px;
+	padding: 2rem;
 	text-transform: uppercase;
 	text-decoration: underline;	
 }
 
 h3 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 24px;
-	padding: 3rem;
+	font-size: 20px;
+	padding: 1rem;
 	text-transform: uppercase;
 	text-decoration: underline;
 
@@ -127,73 +90,37 @@ h3 {
 
 h4 {
 	font-family: 'Nunito', sans-serif;
-	font-size: 40px;
-	padding: 3rem;
+	font-size: 18px;
+	padding: 1rem;
 	text-transform: uppercase;
 	text-decoration: underline;
 	text-align: center;
 }
 
 p {
-	padding: 0rem;
-	font-size: 16px;
+	padding: 1rem;
+	font-size: 12px;
 	font-family: 'Nunito', sans-serif;
 	align-content: center;
 	text-align: center;
 	letter-spacing: 3px;
 }
 
-/*nav {
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	min-height: 8vh;
-	font-size: 10px;
-	background-color: #DCDCDC;
-	font-family: 'Poppins', sans-serif;
-}
-
-.scroller {
-	color: dimgray;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 20px;	
-}*/
-
-video {
-	padding: 2rem;
-}
-
-/*.sticky {
-	position: fixed;
-	top: 0;
-	width: 100%;
-  }
-  
-.sticky + .content {
-	padding-top: 60px;
-  }
-
-*/
-
-
 .footer {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 0px;
-	min-height: 8vh;
+	bottom: 0;
+	width: 100%;
+	position: fixed;
 	background-color: #DCDCDC;
 }
 
 .socials {
 	cursor: pointer;
+	padding: 0.2em;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding: 1px;
 	position: relative;
-	height: 26px;
+	bottom: 0;
 	width: 100%;
 	transform: scale(1);
 	color: dimgrey;
@@ -205,7 +132,7 @@ video {
 }
 
 /*ligh/dark toggle*/
-/*.darktoggle .checkbox {
+.darktoggle .checkbox {
 	opacity: 0;
 	position: absolute;
 	padding-bottom: 0;
@@ -248,8 +175,270 @@ video {
 
 .fa-sun {
 	color: #f39c12;
+}
 
-}*/
+
+@media screen and (min-width: 768px) 
+{
+	.burger  {
+		display: none;
+	}
+
+	.menumask {
+		display: none;
+	}
+/* not doing what you want it to*/
+	.nav-links {
+		color: dimgray;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 20px;
+	}
+
+	.nav-links li {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		font-size: 10px;
+		background-color: #DCDCDC;
+		font-family: 'Poppins', sans-serif;
+	}
+	
+	h2 {
+		font-size: 34px;
+	}
+	
+	h3 {
+		font-size: 24px;
+		padding: 1.5rem;
+	
+	}
+	
+	h4 {
+		font-size: 24px;
+		padding: 1.5rem;
+	}
+	
+	p {
+		padding: 1.5rem;
+		font-size: 16px;
+		letter-spacing: 5px;
+	}
+}
+
+@media screen and (min-width: 1180px) 
+{
+	.burger  {
+		display: none;
+	}
+
+	.menumask {
+		display: none;
+	}
+/* not doing what you want it to*/
+	.nav-links {
+		color: dimgray;
+		text-transform: uppercase;
+		letter-spacing: 5px;
+		font-size: 20px;
+	}
+
+	.nav-links li {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		min-height: 8vh;
+		font-size: 10px;
+		background-color: #DCDCDC;
+		font-family: 'Poppins', sans-serif;
+	}
+
+	h2 {
+		font-size: 45px;
+		padding: 1rem;
+	}
+	
+	h3 h4{
+		font-size: 32px;
+		padding: 2rem;
+	
+	}
+	
+	p {
+		margin-bottom: 25px;
+		padding: .5rem;
+		font-size: 24px;
+		letter-spacing: 3px;
+	}
+}
+
+
+/*portfolio page*/
+video {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	left: 0;
+	width: 100%;
+	height: auto;
+}
+
+.openp {
+	margin-top: 30px;
+	min-height: 30vh;
+	max-height: 50vh;
+   	background: #2F4F4F;
+   	display: inline-block;
+   	width: 100%;
+	font-weight: 600;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Nunito', sans-serif;
+	text-transform: uppercase;
+	padding: 2rem;
+	letter-spacing: 5px;
+	color: dimgray;
+}
+
+.portcontainer{
+	display: fixed;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	letter-spacing: 3px;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.portcontainer iframe {
+	padding: 3rem;
+	display: flexbox;
+}
+
+.portnote{
+	font-size: 10px !important;
+	padding: 0;
+}
+
+.portcontainer span {
+	font-size: 10px;
+}
+
+/*Carousel*/
+.carousel {
+	margin: auto;
+	border: 5px solid black;
+    width: 90%;
+    height: 150px;
+    overflow: hidden; 
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.carouselInner {
+    height: 100%;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+}
+
+.carouselInner .left {
+    flex: 5%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+.carouselInner .center {
+    flex: 80%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    text-align-last: center;
+}
+
+.carouselInner .right {
+    flex: 5%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.6);
+    display: grid;
+    place-items: center;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+	video {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	width: 600px;
+	height: auto;
+	}
+
+	.openp {
+		margin-top: 20px;
+		font-size: 32px;
+		padding: 2.5rem;
+		letter-spacing: 8px;
+		
+	}
+	
+	/*Carousel*/
+	.carousel {
+		width: 85%;
+		height: 400px;
+		overflow: hidden; 
+	}
+}
+
+@media screen and (min-width: 1180px) {
+	video {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+		width: 800px;
+		}
+	
+		.openp {
+			margin-top: 35px;
+			font-size: 48px;
+			padding: 4rem;
+			letter-spacing: 12px;
+			
+		}
+		
+		/*Carousel*/
+		.carousel {
+			width: 45%;
+			height: 400px;
+			overflow: hidden; 
+		}
+}
+/*don't know what this is*/
+.container {
+	margin: 1rem;
+	text-align: center;
+}
+
+/*need to find this too*/
+.scroller {
+	color: dimgray;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;	
+}
+
+/*currently haven't edited below here*/
 
 .aboutme {
 	font-family: 'Nunito', sans-serif;
@@ -321,100 +510,6 @@ video {
   }
 }
 
-.openp {
-	min-height: 30vh;
-   	background: #2F4F4F;
-   	vertical-align: top;
-   	display: inline-block;
-   	width: 100%;
-	font-weight: 700;
-	text-align: center;
-	font-size: 32px;
-	font-family: 'Nunito', sans-serif;
-	text-transform: uppercase;
-	padding: 2rem;
-	letter-spacing: 3px;
-	color: dimgray;
-}
-
-.portcontainer{
-	display: fixed;
-	align-items: center;
-	justify-content: center;
-	text-align: center;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
-	letter-spacing: 3px;
-	width: 100%;
-	overflow-x: hidden;
-}
-
-.portcontainer iframe {
-	padding: 3rem;
-	display: flexbox;
-}
-
-.portnote{
-	font-size: 8px !important;
-	padding: 0;
-}
-
-.portcontainer span {
-	font-size: 10px;
-}
-
-/*Carousel*/
-.carousel {
-	margin: auto;
-	border: 5px solid black;
-    width: 42%;
-    height: 300px;
-    overflow: hidden; 
-}
-
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-.carouselInner {
-    height: 100%;
-    width: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    display: flex;
-}
-
-.carouselInner .left {
-    flex: 5%;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
-    display: grid;
-    place-items: center;
-    color: white;
-    cursor: pointer;
-}
-
-.carouselInner .center {
-    flex: 80%;
-    height: 100%;
-    display: grid;
-    place-items: center;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-    text-align-last: center;
-}
-
-.carouselInner .right {
-    flex: 5%;
-    height: 100%;
-    background-color: rgb(0, 0, 0, 0.6);
-    display: grid;
-    place-items: center;
-    color: white;
-    cursor: pointer;
-}
 
 .contactform{
 	display: flex;

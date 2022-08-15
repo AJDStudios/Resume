@@ -71,9 +71,34 @@ Designing the current iteration (flask origin - to React) block by block
  - started work on tidying up CSS - still requires more  
  - fixed some console warnings                                     
                                             --  Workflow ended 12/08/22 (break on 10th for anniversary) --
+ - header and footer now sticky
+ - Portfolio page now designed as mobile first
+ - added tablet size CSS complexity for portfolio page (menu not working)
+ - added desktop size CSS complexity for portfolio page (menu not working)
 
                                                         -- current workflow until 19/08/22 --
-            - clean up CSS []
+                    --Portfolio page --
+            - CSS for mobile [x]
+            - CSS for tablet [x] 
+            - menu shows on tablet []
+            - CSS for desktop [x]
+            - menu shows on desktop []
+                    --About page --
+            - CSS for mobile []
+            - CSS for tablet [] 
+            - CSS for desktop []
+                    --Skills page --
+            - CSS for mobile []
+            - CSS for tablet [] 
+            - CSS for desktop []
+                    --Contact page --
+            - CSS for mobile []
+            - CSS for tablet [] 
+            - CSS for desktop []            
+
+
+
+
             - work on the load speed []
             - light and dark toggle []
             - burger to cross or don't bother?
