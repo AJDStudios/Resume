@@ -76,15 +76,15 @@ Designing the current iteration (flask origin - to React) block by block
  - added tablet size CSS complexity for portfolio page 
  - added desktop size CSS complexity for portfolio page 
  - CSS design for about page with mobile first mentality
- - still don't understand how to get the menu to show on desktop this way though.
+ - Desktop menu is now fine, but needs more CSS editing 
 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
             - CSS for mobile [x]
             - CSS for tablet [x] 
-            - menu shows on tablet (maybe burger is fine) []
+            - menu shows on tablet (maybe burger is fine) [x]
             - CSS for desktop [x]
-            - menu shows on desktop (definitely no burger) []
+            - menu shows on desktop (definitely no burger) [x]
                     --About page --
             - CSS for mobile [x]
             - CSS for tablet [x] 
