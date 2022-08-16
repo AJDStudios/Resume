@@ -177,15 +177,14 @@ p {
 	color: #f39c12;
 }
 
-
 @media screen and (min-width: 768px) 
 {
 	.burger  {
-		display: none;
+		opacity: none;
 	}
 
 	.menumask {
-		display: none;
+		opacity: none;
 	}
 /* not doing what you want it to*/
 	.nav-links {
@@ -229,15 +228,22 @@ p {
 
 @media screen and (min-width: 1180px) 
 {
-	.burger  {
+/*	.burger  {
 		display: none;
 	}
 
 	.menumask {
-		display: none;
-	}
+		display : none;
+	}*/
+
+/*	.menu {
+		position: absolute;
+		display: inline-block;
+	}*/	
+
 /* not doing what you want it to*/
-	.nav-links {
+	/*.nav-links {
+		display: inline-block;
 		color: dimgray;
 		text-transform: uppercase;
 		letter-spacing: 5px;
@@ -245,14 +251,14 @@ p {
 	}
 
 	.nav-links li {
-		display: flex;
+		display: inline-block;
 		justify-content: space-around;
 		align-items: center;
 		min-height: 8vh;
 		font-size: 10px;
 		background-color: #DCDCDC;
 		font-family: 'Poppins', sans-serif;
-	}
+	}*/
 
 	h2 {
 		font-size: 45px;
@@ -424,74 +430,24 @@ img {
 			overflow: hidden; 
 		}
 }
-/*don't know what this is*/
-.container {
-	margin: 1rem;
-	text-align: center;
-}
 
-/*need to find this too*/
-.scroller {
-	color: dimgray;
-	text-transform: uppercase;
-	letter-spacing: 5px;
-	font-size: 20px;	
-}
-
-/*currently haven't edited below here*/
-
-.aboutme {
-	font-family: 'Nunito', sans-serif;
-	text-align: center;
-	letter-spacing: 3px;
-	font-size: 36px;
-	padding: 5rem;
-	text-transform: uppercase;
-	text-decoration: underline; 
-}
-
-.about {
-	display: flex;
-	flex-basis: 40%;
-	align-items: center;
-	justify-content: center;
-}
-
-.profile {
-	max-width: 30% !important;
-	Width: 18% !important;
-	Height: auto !important;
-	margin: 4rem !important;
-	border-radius: 85%;
-	border: 5px solid dimgrey;
-	margin-top: 25px;
-	
-}
-
-.abouttext {
-	Width: 70%;
-	font-size: 30px;
-	padding-left: 20px;
-	text-align: justify;
-	margin-right: 4px;
-	letter-spacing: 3px;
-	padding-bottom: 2rem;
-}
-
+/*About page*/
 .open {
 	min-height: 30vh;
-	align-content: center;
+	margin-top: 50px;
+	border: 0;
+	align-items: center;
+	text-align: center;
 	background: #2F4F4F;
-	width: 100%;
- 	text-align: center;
- 	font-size: 24px;
+	width: 105%;
+ 	font-size: 14px;
  	font-family: 'Nunito', sans-serif;
  	text-transform: uppercase;
- 	padding: 1rem;
- 	letter-spacing: 3px;
 }
 
 .open h1 {
+	display: inline-flex;
+	margin-top: 10px;
     background: linear-gradient(90deg, #000, #fff, #000);
     -webkit-background-clip: text;
     background-clip: text;
@@ -510,6 +466,136 @@ img {
   }
 }
 
+.aboutme {
+	font-family: 'Nunito', sans-serif;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-align: center;
+	letter-spacing: 5px;
+	font-size: 18px;
+	padding: .5rem;
+	text-transform: uppercase;
+	text-decoration: underline; 
+}
+
+.about {
+	max-width: 100%;
+	display: flex;
+	flex-basis: 40%;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: none;
+}
+
+.profile {
+	max-width: 30% !important;
+	Width: 18% !important;
+	Height: auto !important;
+	margin: 1rem !important;
+	border-radius: 85%;
+	border: 5px solid dimgrey;
+}
+
+.abouttext {
+	Width: 70%;
+	font-size: 12px;
+	padding-left: 1px;
+	text-align: justify;
+	margin-right: 2px;
+	letter-spacing: 1px;
+	padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+	.open {
+		margin-top: 45px;
+		padding: 1rem;
+		align-items: center;
+		text-align: center;
+		width: 100%;
+		font-size: 20px;
+		letter-spacing: 3px;
+	}
+	
+	.open h1 {
+		margin-top: 25px;
+		display: inline;
+		background-size: 80%;
+	}
+	
+	.aboutme {
+		letter-spacing: 5px;
+		font-size: 25px;
+		padding: 1.5rem;	
+	}
+	
+	.profile {
+		margin: 3rem !important;
+	}
+	
+	.abouttext {
+		Width: 70%;
+		font-size: 20px;
+		padding-left: 15px;
+		margin-right: 2px;
+		letter-spacing: 2px;
+		padding-bottom: 75px;
+	}
+}
+
+@media screen and (min-width: 1180px) {
+	.open {
+		min-height: 30vh;
+		font-size: 30px;
+		padding: 2.5rem;
+		letter-spacing: 5px;
+	}
+	
+	.aboutme {
+		letter-spacing: 4px;
+		font-size: 36px;
+		padding: 3rem;
+		margin-top: 75px;
+	}
+
+	.about {
+		padding-bottom: 5rem;
+	}
+
+	.profile {
+		justify-content: center;
+		max-width: 30% !important;
+		Width: 18% !important;
+		Height: auto !important;
+		margin: 5rem !important;
+	
+	}
+	
+	.abouttext {
+		Width: 70%;
+		font-size: 32px;
+		margin-right: 5px;
+		letter-spacing: 5px;
+	}
+}	
+
+
+
+/*don't know what this is*/
+.container {
+	margin: 1rem;
+	text-align: center;
+}
+
+/*need to find this too*/
+.scroller {
+	color: dimgray;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-size: 20px;	
+}
+
+/*currently haven't edited below here*/
 
 .contactform{
 	display: flex;
