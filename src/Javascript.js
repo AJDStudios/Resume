@@ -1,5 +1,4 @@
-
-// this is now priority one
+/*
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
@@ -25,6 +24,7 @@ const navSlide = () => {
 }
 
 navSlide();
+*/
 
 //make sure this is only effecting the Portfolio
 //const texts = ["Portfolio", "Designer", "Indie Game Dev", "Composer", "Writer", "Freelancer", "Entrepeneur"];
@@ -58,7 +58,7 @@ navSlide();
 //    document.body.classList.toggle('light');
 //});
 
-
+/*
 // works, but cuts off content on mobile size
 window.onscroll = function() {myFunction()};
 
@@ -75,7 +75,7 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
-}
+}*/
 
 // Carousel starts 
 //const carouselSlide = document.querySelector('.carousel-slide');
