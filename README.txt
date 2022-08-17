@@ -76,7 +76,9 @@ Designing the current iteration (flask origin - to React) block by block
  - added tablet size CSS complexity for portfolio page 
  - added desktop size CSS complexity for portfolio page 
  - CSS design for about page with mobile first mentality
- - Desktop menu is now fine, but needs more CSS editing 
+ - Desktop menu is now fine, but needs more CSS editing
+ - CSS design for contact
+ - gradient added to heros as the flat color wasn't working 
 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
@@ -94,9 +96,9 @@ Designing the current iteration (flask origin - to React) block by block
             - CSS for tablet [] 
             - CSS for desktop []
                     --Contact page --
-            - CSS for mobile []
-            - CSS for tablet [] 
-            - CSS for desktop []            
+            - CSS for mobile [x]
+            - CSS for tablet [x] 
+            - CSS for desktop [x]            
 
 
 
@@ -105,6 +107,7 @@ Designing the current iteration (flask origin - to React) block by block
             - light and dark toggle []
             - final commit []
             - redeploy []
+            
                                                             -- Potential Extra Features  --
             - Switch to a custom domain (not a priority as I see it - functionality first) []                                   
             - Add Russian []

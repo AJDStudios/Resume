@@ -21,9 +21,9 @@ body {
 
 .header {
 	display: flex;
-	position: fixed;
-	z-index: 999;
+	position: sticky;
 	top: 0;
+	z-index: 100;
 	width: 100%;
 	justify-content: space-around;
 	align-items: center;
@@ -32,6 +32,7 @@ body {
 	background-color:  #DCDCDC;
 	color:dimgrey;
 	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
 }
 
 .desknav {
@@ -111,10 +112,11 @@ p {
 }
 
 .footer {
+	position: sticky;
 	bottom: 0;
 	width: 100%;
-	position: fixed;
 	background-color: #DCDCDC;
+	overflow-y: hidden;
 }
 
 .socials {
@@ -262,6 +264,11 @@ p {
 		margin-right: 5px;
 	}
 
+	.footer {
+		height: 7vh;
+		padding: .5rem;
+	}
+
 	h2 {
 		font-size: 45px;
 		padding: 1rem;
@@ -291,10 +298,9 @@ video {
 }
 
 .openp {
-	margin-top: 30px;
 	min-height: 30vh;
 	max-height: 50vh;
-   	background: #2F4F4F;
+	background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
    	display: inline-block;
    	width: 100%;
 	font-weight: 600;
@@ -304,7 +310,7 @@ video {
 	text-transform: uppercase;
 	padding: 2rem;
 	letter-spacing: 5px;
-	color: dimgray;
+	color: #131313;
 }
 
 .portcontainer{
@@ -394,7 +400,6 @@ img {
 	}
 
 	.openp {
-		margin-top: 20px;
 		font-size: 32px;
 		padding: 2.5rem;
 		letter-spacing: 8px;
@@ -417,7 +422,6 @@ img {
 		}
 	
 		.openp {
-			margin-top: 35px;
 			font-size: 48px;
 			padding: 4rem;
 			letter-spacing: 12px;
@@ -435,12 +439,11 @@ img {
 /*About page*/
 .open {
 	min-height: 30vh;
-	margin-top: 50px;
 	border: 0;
 	align-items: center;
 	text-align: center;
-	background: #2F4F4F;
-	width: 105%;
+	background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
+	width: 100%;
  	font-size: 14px;
  	font-family: 'Nunito', sans-serif;
  	text-transform: uppercase;
@@ -509,10 +512,6 @@ img {
 
 @media screen and (min-width: 768px) {
 	.open {
-		margin-top: 45px;
-		padding: 1rem;
-		align-items: center;
-		text-align: center;
 		width: 100%;
 		font-size: 20px;
 		letter-spacing: 3px;
@@ -520,7 +519,6 @@ img {
 	
 	.open h1 {
 		margin-top: 25px;
-		display: inline;
 		background-size: 80%;
 	}
 	
@@ -546,7 +544,6 @@ img {
 
 @media screen and (min-width: 1180px) {
 	.open {
-		min-height: 30vh;
 		font-size: 30px;
 		padding: 2.5rem;
 		letter-spacing: 5px;
@@ -580,87 +577,26 @@ img {
 	}
 }	
 
-
-
-
-
-
-/*currently haven't edited below here*/
-
-.contactform{
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	padding: 3rem;
-	font-size: 32px;
-}
-
-.subform {
-	padding: 2rem;
-}
-
-.submit {
-	background-color: #2F4F4F;
-	color: dimgrey;
-	font-size: 32px;
-	width: 100%;
-	Height: 3rem;
-}
-
-  input {
-	padding: 0.5rem;
-	background-color: #2F4F4F;
-	width: 100%;
-  }
-
-  textarea{
-	padding: 2rem;
-	background-color: #2F4F4F;
-	width: 100%;
-  }
-
-  .contact {
-	display: flex;
-	align-content: center;
-	justify-content: center;
-	font-size: 2rem;
-	color: dimgrey;
-	letter-spacing: 1px;
- 	padding: 1.5rem;
-  	
-}
-
-.contact ul {
-	text-align: left;
-	font-size: 75%;
-	display: inline;  
-}
-
-.contact ul i{
-	padding: 1rem;
-	padding-left: 20px;
-	text-align: left;
-	font-size: 100%;
-	color: #2F4F4F;  
-  }
-
+/*Contact page*/
 .name {
 	min-height: 30vh;
-    background: #2F4F4F;
+    background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
+	color: #131313;
 	vertical-align: top;
     display: inline-block;
     text-align: center;
 	align-content: center;
     width: 100%;
+	overflow-x: hidden;
 }  
 
 .name span {
 	text-align: center;
 	align-content: center;
 	display: inline-block;
-	padding: 1.5rem;
+	padding: 1rem;
 	padding-top: 7rem;
-	font-size: 40px;
+	font-size: 24px;
 	text-transform: uppercase;
 	animation: flip 5s infinite;
 	animation-delay: calc(.2s * var(--i))
@@ -672,9 +608,175 @@ img {
 	}
 }
 
+.contactform{
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	padding: 3.5rem;
+	font-size: 24px;
+}
+
+.subform {
+	padding: 2rem;
+}
+
+.submit {
+	background: linear-gradient(to right, #063535, #2F4F4F);
+	color: dimgrey;
+	font-size: 24px;
+	width: 100%;
+	Height: 2.5rem;
+}
+
+  input {
+	padding: .5rem;
+	background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+	width: 100%;
+	font-size: 16px;
+  }
+
+  textarea{
+	padding: 1rem;
+	background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+	width: 100%;
+	min-height: 100px;
+	font-size: 16px;
+  }
+
+  .contact {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	font-size: 1.2rem;
+	color: dimgrey;
+	letter-spacing: .5px;
+ 	padding: .1rem;
+  	
+}
+
+.contact ul {
+	text-align: left;
+	font-size: 70%;
+	display: inline;  
+}
+
+.contact ul i{
+	padding: 1rem;
+	padding-left: 30px;
+	text-align: left;
+	font-size: 100%;
+	color: #2F4F4F;  
+  }
+
+  @media screen and (min-width: 768px) {
+	.name span {
+		padding: 1rem;
+		padding-top: 4rem;
+		font-size: 40px;
+	}
+	
+	.subform {
+		padding: 1rem;
+	}
+
+	.contactform{
+		padding: 5rem;
+		font-size: 40px;
+	}
+	
+	.submit {
+		font-size: 32px;
+		width: 100%;
+		Height: 3.5rem;
+	}
+
+	input {
+		padding: 1.2rem;
+		font-size: 24px;
+	  }
+	
+	  textarea{
+		min-height: 150px;
+		padding: 1rem;
+		font-size: 24px;
+	  }
+
+	  .contact {
+		font-size: 28px;
+		letter-spacing: 2px;
+		padding: .5rem;
+	}
+	
+	.contact ul {
+		font-size: 100%;
+	}
+	
+	.contact ul i{
+		padding: 1rem;
+		padding-left: 75px;
+		text-align: left;
+	  }
+}
+
+  @media screen and (min-width: 1180px) {
+	.name span {
+		padding: 2rem;
+		padding-top: 7rem;
+		font-size: 52px;
+	}
+
+	.contactform{
+		padding: 10rem;
+		font-size: 48px;
+	}
+
+	.submit {
+		font-size: 48px;
+		width: 100%;
+		Height: 4.5rem;
+	}
+
+	input {
+		padding: 1rem;
+		background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+		width: 100%;
+		font-size: 32px;
+	  }
+	
+	  textarea{
+		padding: 1rem;
+		background: linear-gradient(to right, #8ad4d4, #2F4F4F);
+		width: 100%;
+		font-size: 32px;
+		min-height: 250px;
+	  }
+
+	  .contact {
+		font-size: 40px;
+	}
+	
+	.contact ul {
+		font-size: 100%;
+	}
+	
+	.contact ul i{
+		padding-left: 150px;
+		text-align: left;
+		font-size: 80%;
+		color: #2F4F4F;  
+	  }
+  }
+
+
+
+
+
+
+/*currently haven't edited below here*/
+
 .opens {
 	min-height: 30vh;
-    background: #2F4F4F;
+    background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
 	vertical-align: top;
     width: 100%;
 }
@@ -740,197 +842,3 @@ input[type="checkbox"] {
 	}
   }
 
-/* tablet size-ish*/
-/*@media screen and (max-width: 1180px) {
-	.open {
-		min-height: 15vh;
-		background: #2F4F4F;
-		text-align: center;
-		align-content: center;
-		width: 100%;
-	}
-	
-	.open h1 {
-		font-weight: 700;
-		text-align: center;
-		font-size: 24px;
-		font-family: 'Nunito', sans-serif;
-		text-transform: uppercase;
-		padding: 1rem;
-		background: linear-gradient(90deg, #000, #fff, #000);
-		letter-spacing: 1.5px;
-		-webkit-background-clip: text;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-repeat: no-repeat;
-		background-size: 80%;
-		animation: shine 8s linear infinite;
-	}
-
-	.openp {
-		min-height: 20px;
-	}
-	
-	.openp h1 {
-		padding: 1.5rem;
-		font-size: 32px;
-	}
-
-	.nav-links {
-		min-width: 30%;
-		width: 60%;
-		margin: 10px;
-	}
-
-	.abouttext {
-		width: 60%;
-		font-size: 20px;
-	}
-	.opens ul {
-		padding-left: 25rem;
-		font-size: 20px;
-	  }
-	
-	input[type="checkbox"] {
-		height: 40px;
-		width: 40px;
-	  }
-	  
-	  .opens div {
-		height: 40px;
-		width: 40px;
-		font-size: 20px;
-	  }
-}*/
-/* cut-off for mobile */
-/*@media screen and (max-width: 768px) {
-	body{
-		overflow-x: hidden; 
-		position: relative;
-	} 
-	
-	.open {
-		min-height: 8px;
-	}
-
-	.open h1 {
-		padding: .5rem;
-		font-size: 20px;
-	}
-
-	h2 {
-		font-family: 'Nunito', sans-serif;
-		font-size: 24px;
-		padding: 1rem;
-		text-transform: uppercase;
-		text-decoration: underline;	
-	}
-	
-	h3 {
-		font-family: 'Nunito', sans-serif;
-		font-size: 24px;
-		padding: 1rem;
-		text-transform: uppercase;
-		text-decoration: underline;
-	
-	}
-	
-	h4 {
-		font-family: 'Nunito', sans-serif;
-		font-size: 24px;
-		padding: 1rem;
-		text-transform: uppercase;
-		text-decoration: underline;
-		text-align: center;
-	}
-	
-	p {
-		padding: 0rem;
-		font-size: 10px;
-		font-family: 'Nunito', sans-serif;
-		align-content: center;
-		text-align: center;
-		letter-spacing: 0px;
-		width: 100%;
-	}
-	
-	.nav-links{
-		position: absolute;
-		right: 5px;
-		height: 50vh;
-		top: 33.5vh;
-		background-color: #DCDCDC;
-		display: flex; 
-		flex-direction: column;
-		align-items: center;
-		width: 50%;
-		transform: translateX(100%);
-		transition: transform 0.5s ease-in; 
-	}	
-	
-	.nav-links li{
-		opacity: 0;
-	}
-
-	.burger {
-		display: block;
-	}
-
-	.aboutme {
-		text-align: center;
-		letter-spacing: 3px;
-		padding: 2rem;
-		text-transform: uppercase;
-		
-	}
-	
-	.about {
-		display: flex;
-		flex-basis: 40%;
-		height: 50%;
-		align-items: center;
-		justify-content: center;
-	}
-	
-	.profile {
-		Width: 15%;
-		Height: auto;
-		margin: 1rem;
-		
-	}
-	
-	.abouttext {
-		font-size: 15px;
-		padding-left: none;
-		margin-right: 1px;
-		letter-spacing: 1px;
-	}
-
-	.animated-gif {
-		width: 25px;
-		height: auto;
-	}
-	
-	video {
-		width: 80%;
-		height: auto;
-		padding: 2rem;
-	}
-
-	.opens ul {
-		padding-left: 3rem;
-		font-size: 20px;
-	  }
-	
-	input[type="checkbox"] {
-		height: 40px;
-		width: 40px;
-	  }
-	  
-	  .opens div {
-		height: 40px;
-		width: 40px;
-		font-size: 20px;
-	  }
-}
-*/
