@@ -29,10 +29,11 @@ body {
 	align-items: center;
 	min-height: 8vh;
 	font-size: 16px;
-	background-color:  #dcdcdc;
-	color:dimgrey;
+	background-color: #0a1a1a;
+	border: 3px double dimgrey;
+	color:grey;
 	font-family: 'Poppins', sans-serif;
-	overflow-x: hidden;
+	overflow: hidden;
 }
 
 .desknav {
@@ -41,7 +42,7 @@ body {
 
 .menu {
 	position: fixed;
-	background-color: #DCDCDC;
+	background-color: #0a1a1a;
 	font-size: 10px;
 	top: 0;
 	left: 0;
@@ -79,6 +80,7 @@ h1 {
 h2 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 28px;
+	letter-spacing: 2px;
 	padding: 2rem;
 	text-transform: uppercase;
 }
@@ -87,6 +89,7 @@ h3 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 20px;
 	padding: 1rem;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 }
 
@@ -100,7 +103,7 @@ h4 {
 
 p {
 	padding: 1rem;
-	font-size: 12px;
+	font-size: 14px;
 	font-family: 'Nunito', sans-serif;
 	align-content: center;
 	text-align: center;
@@ -108,11 +111,12 @@ p {
 }
 
 .footer {
+	border: 3px double dimgrey;
 	position: sticky;
 	bottom: 0;
 	width: 100%;
-	background-color: #DCDCDC;
-	overflow-y: hidden;
+	background-color: #0a1a1a;
+	overflow: hidden;
 }
 
 .socials {
@@ -125,7 +129,7 @@ p {
 	bottom: 0;
 	width: 100%;
 	transform: scale(1);
-	color: dimgrey;
+	color: grey;
 }
 
 .animated-gif {
@@ -238,7 +242,7 @@ p {
 	
 	p {
 		padding: 1.5rem;
-		font-size: 16px;
+		font-size: 18px;
 		letter-spacing: 5px;
 	}
 }
@@ -285,6 +289,14 @@ p {
 }
 
 /*portfolio page*/
+.RPG, .VN{
+	width: 300px;
+	margin: auto;
+ 	text-align: justify;
+ 	-moz-text-align-last: center;
+	text-align-last: center;
+}
+
 video {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -292,6 +304,7 @@ video {
 	width: 100%;
 	height: auto;
 }
+
 
 .openp {
 	min-height: 30vh;
@@ -306,7 +319,7 @@ video {
 	text-transform: uppercase;
 	padding: 2rem;
 	letter-spacing: 5px;
-	color: #131313;
+	color: #0a1a1a;
 }
 
 .portcontainer{
@@ -333,6 +346,7 @@ video {
 
 .portcontainer span {
 	font-size: 12px;
+	text-decoration: underline;
 }
 
 /*Carousel*/
@@ -388,18 +402,22 @@ img {
     cursor: pointer;
 }
 @media screen and (min-width: 768px) {
+	.RPG, .VN{
+		width: 650px;
+		margin: auto;
+	}
+	
 	video {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
-	width: 600px;
+	width: 100%;
 	height: auto;
 	}
 
 	.openp {
 		font-size: 32px;
 		padding: 2.5rem;
-		letter-spacing: 8px;
-		
+		letter-spacing: 8px;	
 	}
 	
 	/*Carousel*/
@@ -411,6 +429,11 @@ img {
 }
 
 @media screen and (min-width: 1180px) {
+	.RPG, .VN {
+		width: 1500px;
+		margin: auto;
+	}
+	
 	video {
 		padding-top: 5rem;
 		padding-bottom: 5rem;

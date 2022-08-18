@@ -88,6 +88,7 @@ Designing the current iteration (flask origin - to React) block by block
  - worked on edge case CSS - still not ideal
  - worked through some user feedback.
  - removed the last console warning 
+ - dark theme CSS (invert for light theme) 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
             - CSS for mobile [x]
@@ -110,7 +111,7 @@ Designing the current iteration (flask origin - to React) block by block
             - responsive css commit [x]    
             - responsive redeploy [x]       
 
-            - change header footer colour? []    
+            - change header footer colour? [x]    
             - work on the load speed []
             - light and dark toggle []
             - final commit []
