@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.d5b4aff8.css",
-    "main.js": "/Resume/static/js/main.f8ad2e47.js",
+    "main.css": "/Resume/static/css/main.95e8ca1a.css",
+    "main.js": "/Resume/static/js/main.342b9120.js",
     "static/media/RPG.webm": "/Resume/static/media/RPG.9e112af981535aa77747.webm",
     "static/media/VN.webm": "/Resume/static/media/VN.b830c03ec5da507dab4e.webm",
     "static/media/fravashijolana.webp": "/Resume/static/media/fravashijolana.ebf8fd23f871e44888c3.webp",
@@ -18,11 +18,11 @@
     "static/media/aden.gif": "/Resume/static/media/aden.e1d69cd4952b1e0f15f1.gif",
     "static/media/dissolve.webp": "/Resume/static/media/dissolve.46c8ecbed111581d1b28.webp",
     "index.html": "/Resume/index.html",
-    "main.d5b4aff8.css.map": "/Resume/static/css/main.d5b4aff8.css.map",
-    "main.f8ad2e47.js.map": "/Resume/static/js/main.f8ad2e47.js.map"
+    "main.95e8ca1a.css.map": "/Resume/static/css/main.95e8ca1a.css.map",
+    "main.342b9120.js.map": "/Resume/static/js/main.342b9120.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b4aff8.css",
-    "static/js/main.f8ad2e47.js"
+    "static/css/main.95e8ca1a.css",
+    "static/js/main.342b9120.js"
   ]
 }
