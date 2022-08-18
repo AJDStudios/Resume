@@ -615,7 +615,7 @@ img {
 }	
 
 /*Contact page*/
-.name {
+.cname {
 	min-height: 30vh;
     background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
 	color: #131313;
@@ -627,7 +627,7 @@ img {
 	overflow-x: hidden;
 }  
 
-.name span {
+.cname span {
 	text-align: center;
 	align-content: center;
 	display: inline-block;
@@ -706,9 +706,8 @@ img {
   }
 
   @media screen and (min-width: 768px) {
-	.name span {
-		padding: 1rem;
-		padding-top: 4rem;
+	.cname span {
+		padding: 12vh 1vw;
 		font-size: 40px;
 	}
 	
@@ -756,7 +755,7 @@ img {
 }
 
   @media screen and (min-width: 1180px) {
-	.name span {
+	.cname span {
 		padding: 2rem;
 		padding-top: 7rem;
 		font-size: 52px;

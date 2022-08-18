@@ -5,7 +5,7 @@ export default function Contact() {
     return (
         <>
             <div className="open">
-				<div className="name">
+				<div className="cname">
 					<span>C</span>
 					<span>o</span>
 					<span>n</span>
