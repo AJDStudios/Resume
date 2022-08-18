@@ -4,32 +4,32 @@ export default function Skills() {
     return (
         <>
             <div className="opens">
-                <ul>
-                    <li>
-                        <input type="checkbox" />
-                        <div>S</div>
-                    </li>
-                    <li>
-                        <input type="checkbox" />
-                        <div>K</div>
-                    </li>
-                    <li>
-                        <input type="checkbox" />
-                        <div>I</div>
-                    </li>
-                    <li>
-                        <input type="checkbox" />
-                        <div>L</div>
-                    </li>
-                    <li>
-                        <input type="checkbox" />
-                        <div>L</div>
-                    </li>
-                    <li>
-                        <input type="checkbox" />
-                        <div>S</div>
-                    </li>
-                </ul>
+                    <ul>
+                        <li>
+                            <input type="checkbox" />
+                            <div>S</div>
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <div>K</div>
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <div>I</div>
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <div>L</div>
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <div>L</div>
+                        </li>
+                        <li>
+                            <input type="checkbox" />
+                            <div>S</div>
+                        </li>
+                    </ul>
             </div>
             <div className="skills">
                 <section className="Devskills">

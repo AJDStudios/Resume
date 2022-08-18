@@ -84,7 +84,10 @@ Designing the current iteration (flask origin - to React) block by block
  - fixed unexpected About page issue 
  - final CSS commit (this can of course change with user feedback)
  - CSS deployment
-
+ - centered thecheckboxes on the skills hero
+ - worked on edge case CSS - still not ideal
+ - worked through some user feedback.
+ - removed the last console warning 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
             - CSS for mobile [x]
@@ -107,6 +110,7 @@ Designing the current iteration (flask origin - to React) block by block
             - responsive css commit [x]    
             - responsive redeploy [x]       
 
+            - change header footer colour? []    
             - work on the load speed []
             - light and dark toggle []
             - final commit []

@@ -14,7 +14,7 @@
 
 body { 
     background-color: #131313;
-    color: dimgrey;
+    color: grey;
     overflow-x: hidden;
 	Width: 100%;
 }
@@ -29,7 +29,7 @@ body {
 	align-items: center;
 	min-height: 8vh;
 	font-size: 16px;
-	background-color:  #DCDCDC;
+	background-color:  #dcdcdc;
 	color:dimgrey;
 	font-family: 'Poppins', sans-serif;
 	overflow-x: hidden;
@@ -81,7 +81,6 @@ h2 {
 	font-size: 28px;
 	padding: 2rem;
 	text-transform: uppercase;
-	text-decoration: underline;	
 }
 
 h3 {
@@ -89,8 +88,6 @@ h3 {
 	font-size: 20px;
 	padding: 1rem;
 	text-transform: uppercase;
-	text-decoration: underline;
-
 }
 
 h4 {
@@ -98,7 +95,6 @@ h4 {
 	font-size: 18px;
 	padding: 1rem;
 	text-transform: uppercase;
-	text-decoration: underline;
 	text-align: center;
 }
 
@@ -260,7 +256,7 @@ p {
 	}
 	
 	 .desknav-links li {
-		font-size: 26px;
+		font-size: 16px;
 		margin-right: 5px;
 	}
 
@@ -331,12 +327,12 @@ video {
 }
 
 .portnote{
-	font-size: 10px !important;
+	font-size: 12px !important;
 	padding: 0;
 }
 
 .portcontainer span {
-	font-size: 10px;
+	font-size: 12px;
 }
 
 /*Carousel*/
@@ -461,6 +457,10 @@ img {
     animation: shine 8s linear infinite;
   }
 
+.name {
+	padding: 2vh 2vw;
+}  
+
 @keyframes shine {
   0% {
 	background-position-x: -500%;
@@ -522,6 +522,9 @@ img {
 		background-size: 80%;
 	}
 	
+	.name{
+		padding: 10vh 10vw;
+	}
 	.aboutme {
 		letter-spacing: 5px;
 		font-size: 25px;
@@ -530,6 +533,7 @@ img {
 	
 	.profile {
 		margin: 3rem !important;
+		overflow-x: hidden;
 	}
 	
 	.abouttext {
@@ -539,6 +543,12 @@ img {
 		margin-right: 2px;
 		letter-spacing: 2px;
 		padding-bottom: 75px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	.name{
+		padding: 10vh 13vw;
 	}
 }
 
@@ -554,6 +564,10 @@ img {
 		font-size: 36px;
 		padding: 3rem;
 		margin-top: 75px;
+	}
+
+	.name{
+		padding: 10vh 18vw;
 	}
 
 	.about {
@@ -774,27 +788,24 @@ img {
 	min-height: 30vh;
     background: linear-gradient(to right, #469696, #255c5c, #2F4F4F);
 	vertical-align: top;
+	text-align: center;
+	align-content: center;
     width: 100%;
+	overflow-x: hidden;
 }
 
 .opens ul {
+	width: 100%;
+	padding: 12vh 5vw 0 5vw;
+	margin: auto;
 	display: flex;
-	text-align: center;
-	align-content: center;
-	padding-top: 12vh;
-	padding-left: 2.5vh;
-	font-size: 24px;
+	position: absolute;
 	text-transform: uppercase;
-  }
-  
-  .opens label {
-	position: relative;
-	text-align: center;
-	align-content: center;
   }
 
 input[type="checkbox"] {
 	opacity: 0;
+	display: flex;
 	position: absolute;
 	cursor: pointer;
 	height: 50px;
@@ -842,36 +853,48 @@ input[type="checkbox"] {
 @media screen and (min-width: 768px)
 {
 	.opens ul {
-	padding-top: 10vh;
-	padding-left: 27%;
-	font-size: 32px;
-  }
-  
+		padding: 12vh 24vw 0 24vw;
+	  }
 
-input[type="checkbox"] {
-	height: 60px;
-	width: 60px;
-	
-  }
+	input[type="checkbox"] {
+		height: 60px;
+		width: 60px;
+		}
   
-  .opens div {
+  	.opens div {
+		height: 60px;
+		width: 60px;
+		font-size: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+	.opens ul {
+		padding: 10vh 30vw 0 30vw;
+	}
+
+	input[type="checkbox"] {
+		height: 60px;
+		width: 60px;
+	}
+  
+    .opens div {
 	height: 60px;
 	width: 60px;
 	font-size: 32px;
-  }
+    }
 }
 
 @media screen and (min-width: 1180px)
 {
 	.opens ul {
-	padding-top: 6rem;
-	padding-left: 42rem;
-	font-size: 40px;
-  }
+		padding: 10vh 30vw 0 30vw;
+	}
+
   
-input[type="checkbox"] {
-	height: 80px;
-	width: 80px;
+	input[type="checkbox"] {
+		height: 80px;
+		width: 80px;
   }
   
   .opens div {
@@ -879,3 +902,10 @@ input[type="checkbox"] {
 	width: 80px;
   }
 }
+
+@media screen and (min-width: 1500px)
+{
+	.opens ul {
+		padding: 10vh 37vw 0 37vw;
+	}
+}	
