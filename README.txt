@@ -78,7 +78,9 @@ Designing the current iteration (flask origin - to React) block by block
  - CSS design for about page with mobile first mentality
  - Desktop menu is now fine, but needs more CSS editing
  - CSS design for contact
- - gradient added to heros as the flat color wasn't working 
+ - gradient added to heros as the flat color wasn't working
+ - CSS design for skills
+ - responsive CSS complete  
 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
@@ -92,16 +94,15 @@ Designing the current iteration (flask origin - to React) block by block
             - CSS for tablet [x] 
             - CSS for desktop [x]
                     --Skills page --
-            - CSS for mobile []
-            - CSS for tablet [] 
-            - CSS for desktop []
+            - CSS for mobile [x]
+            - CSS for tablet [x] 
+            - CSS for desktop [x]
                     --Contact page --
             - CSS for mobile [x]
             - CSS for tablet [x] 
-            - CSS for desktop [x]            
-
-
-
+            - CSS for desktop [x]     
+            - responsive css commit []    
+            - responsive redeploy []       
 
             - work on the load speed []
             - light and dark toggle []
