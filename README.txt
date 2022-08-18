@@ -101,8 +101,8 @@ Designing the current iteration (flask origin - to React) block by block
             - CSS for mobile [x]
             - CSS for tablet [x] 
             - CSS for desktop [x]     
-            - responsive css commit []    
-            - responsive redeploy []       
+            - responsive css commit [x]    
+            - responsive redeploy [x]       
 
             - work on the load speed []
             - light and dark toggle []
