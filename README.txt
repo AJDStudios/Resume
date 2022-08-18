@@ -81,6 +81,9 @@ Designing the current iteration (flask origin - to React) block by block
  - gradient added to heros as the flat color wasn't working
  - CSS design for skills
  - responsive CSS complete  
+ - fixed unexpected About page issue 
+ - final CSS commit (this can of course change with user feedback)
+ - CSS deployment
 
                                                         -- current workflow until 19/08/22 --
                     --Portfolio page --
