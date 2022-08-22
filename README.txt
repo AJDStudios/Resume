@@ -88,30 +88,15 @@ Designing the current iteration (flask origin - to React) block by block
  - worked on edge case CSS - still not ideal
  - worked through some user feedback.
  - removed the last console warning 
- - dark theme CSS (invert for light theme) 
-                                                        -- current workflow until 19/08/22 --
-                    --Portfolio page --
-            - CSS for mobile [x]
-            - CSS for tablet [x] 
-            - menu shows on tablet (maybe burger is fine) [x]
-            - CSS for desktop [x]
-            - menu shows on desktop (definitely no burger) [x]
-                    --About page --
-            - CSS for mobile [x]
-            - CSS for tablet [x] 
-            - CSS for desktop [x]
-                    --Skills page --
-            - CSS for mobile [x]
-            - CSS for tablet [x] 
-            - CSS for desktop [x]
-                    --Contact page --
-            - CSS for mobile [x]
-            - CSS for tablet [x] 
-            - CSS for desktop [x]     
-            - responsive css commit [x]    
-            - responsive redeploy [x]       
+ - dark theme CSS (invert for light theme)
+ - had one more sweet of multi-screen CSS (not ideal on a couple rarer screen sizes)
+                                                        -- workflow until 19/08/22 --
 
-            - change header footer colour? [x]    
+
+                                                     -- Current worfklow until 28/08/22 --
+            - light theme and functional toggle []
+            - Add Russian []
+            - music player for compositions []
             - work on the load speed []
             - light and dark toggle []
             - final commit []
@@ -119,7 +104,5 @@ Designing the current iteration (flask origin - to React) block by block
             
                                                             -- Potential Extra Features  --
             - Switch to a custom domain (not a priority as I see it - functionality first) []                                   
-            - Add Russian []
             - search bar (will tackle this elsewhere, but maybe transfer afterwards) []
-            - music player for compositions []
             - the "secret" pages (consider adding little game easter eggs - you're actually good at that) []
