@@ -93,7 +93,7 @@ Designing the current iteration (flask origin - to React) block by block
                                                         -- workflow until 19/08/22 --
 
 
-                                                     -- Current worfklow until 28/08/22 --
+                                                     -- Current worfklow --
             - light theme and functional toggle []
             - Add Russian []
             - music player for compositions []
