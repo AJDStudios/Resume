@@ -91,9 +91,10 @@ Designing the current iteration (flask origin - to React) block by block
  - dark theme CSS (invert for light theme)
  - had one more sweet of multi-screen CSS (not ideal on a couple rarer screen sizes)
                                                         -- workflow until 19/08/22 --
+ - Due to the mobilisation in Russia, I took a couple month break from work as we arranged to leave the country. 
 
-
-                                                     -- Current worfklow --
+                                                     -- Current worfklow as of 26/10/22 (from UK) --
+            - Update contact details for uk [x]
             - light theme and functional toggle []
             - Add Russian []
             - music player for compositions []

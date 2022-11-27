@@ -20,7 +20,7 @@ export default function Contact() {
 				<ul>
 					<li>
 						<i className="fa fa-phone"></i>
-						<a href="tel:+79777466273" target="_blank" rel="noreferrer"><span>+7-977-746-62-73</span></a>
+						<a href="tel:+447498284613" target="_blank" rel="noreferrer"><span>+44-7498-284-613</span></a>
 					</li>
 					<li>
 						<i className="fa fa-envelope"></i>
@@ -28,7 +28,7 @@ export default function Contact() {
 					</li>
 					<li>
 						<i className="fa fa-map-marker"></i>
-						<a href="https://yandex.com/maps/-/CCUJiUf0CC" target="_blank" rel="noreferrer"><span>Khoroshovskoye Highway, Moscow</span></a>
+						<a href="https://goo.gl/maps/UpuqQFsWMfMGMSYy8" target="_blank" rel="noreferrer"><span>Monmouth</span></a>
 					</li>
 				</ul>
 			</div>
