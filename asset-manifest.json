@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/Resume/static/css/main.63167fbf.css",
-    "main.js": "/Resume/static/js/main.3011efb2.js",
+    "main.css": "/Resume/static/css/main.7a5e38d4.css",
+    "main.js": "/Resume/static/js/main.65f0c459.js",
     "static/media/RPG.webm": "/Resume/static/media/RPG.9e112af981535aa77747.webm",
     "static/media/VN.webm": "/Resume/static/media/VN.b830c03ec5da507dab4e.webm",
     "static/media/fravashijolana.webp": "/Resume/static/media/fravashijolana.ebf8fd23f871e44888c3.webp",
     "static/media/friends.webp": "/Resume/static/media/friends.0a1389278a28b92a104d.webp",
-    "static/media/profiledark.jpg": "/Resume/static/media/profiledark.d50904a59299c4fff73f.jpg",
     "static/media/genericdemons.webp": "/Resume/static/media/genericdemons.641d0b7f15e570ad692e.webp",
+    "static/media/mhc.webp": "/Resume/static/media/mhc.d71bc02120a83cd0b3ba.webp",
     "static/media/teenjo.webp": "/Resume/static/media/teenjo.8da0dc00a275ea43f6ef.webp",
     "static/media/sonny.webp": "/Resume/static/media/sonny.4096babe4b2ef644ed2d.webp",
     "static/media/kreagore.webp": "/Resume/static/media/kreagore.fc9693722e4bb5149c62.webp",
     "static/media/youngjo.webp": "/Resume/static/media/youngjo.bbc30bb3b788f4b0adba.webp",
-    "static/media/fravashiad.webp": "/Resume/static/media/fravashiad.e7ef92174afa8c1e6dd2.webp",
     "static/media/triad.webp": "/Resume/static/media/triad.744092cd9c1a85856233.webp",
     "static/media/title.webp": "/Resume/static/media/title.0572c14b22e8bf6b3166.webp",
+    "static/media/profilephoto2.webp": "/Resume/static/media/profilephoto2.4624fb4be9f6caccbff6.webp",
     "static/media/aden.gif": "/Resume/static/media/aden.e1d69cd4952b1e0f15f1.gif",
+    "static/media/fravashiad.webp": "/Resume/static/media/fravashiad.7eb77ceece3652b4e9f0.webp",
     "static/media/dissolve.webp": "/Resume/static/media/dissolve.46c8ecbed111581d1b28.webp",
     "index.html": "/Resume/index.html",
-    "main.63167fbf.css.map": "/Resume/static/css/main.63167fbf.css.map",
-    "main.3011efb2.js.map": "/Resume/static/js/main.3011efb2.js.map"
+    "main.7a5e38d4.css.map": "/Resume/static/css/main.7a5e38d4.css.map",
+    "main.65f0c459.js.map": "/Resume/static/js/main.65f0c459.js.map"
   },
   "entrypoints": [
-    "static/css/main.63167fbf.css",
-    "static/js/main.3011efb2.js"
+    "static/css/main.7a5e38d4.css",
+    "static/js/main.65f0c459.js"
   ]
 }
