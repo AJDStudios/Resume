@@ -3,6 +3,7 @@ import Typewriter from "typewriter-effect";
 import Carousel from "./Carousel.js"
 import VN from "./VN.webm"
 import RPG from "./RPG.webm"
+import mhc from "./mhc.webp"
 
 export default function Portfolio() {
     return (
@@ -55,6 +56,17 @@ export default function Portfolio() {
                 />
             </div>
             <div className="portcontainer">
+                <section classname="workprojects">
+                    <h2>Work Projects</h2>
+                    <section classname="mhcproject">
+                        <a href="https://myhealthchecked.com/" target="_blank" rel="noreferrer" ><h3>myhealthchecked.com</h3></a>
+                        <a href="https://myhealthchecked.com/" target="_blank" rel="noreferrer" ><img className="mhc" src={ mhc } alt=""/></a>
+                        <p>I am the frontend software engineer on this project. Built with React.js and using a headless CMS via sanity-studio.</p> 
+                        <p>Recently -- 21/05/2022 -- the new web design was launched along with three separate product launches that tied in with a wider popular highstreet store's national launch of our products.</p>
+                        <p>My day to day at the moment is maintaining our dashboard and the frontend of our laboratory inventory system, the CMS - including its functionality - and updating content and metadata in-line with the needs of the business.</p>
+                        <p>As we are a relatively small start-up, I do also wear a number of hats in the company.</p>     
+                    </section>
+                </section>
                 <section className="games">
                     <h2>Game Projects</h2>
                     <section className="RPG">

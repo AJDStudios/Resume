@@ -297,6 +297,15 @@ p {
 	text-align-last: center;
 }
 
+.mhc {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	left: 0;
+	width: 55%;
+	height: auto;
+}
+
+
 video {
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -584,8 +593,8 @@ img {
 
 @media screen and (min-width: 1180px) {
 	.open {
-		font-size: 30px;
-		padding: 2.5rem;
+		font-size: 25px;
+		padding: 1rem;
 		letter-spacing: 5px;
 	}
 	
@@ -601,21 +610,24 @@ img {
 	}
 
 	.about {
-		padding-bottom: 5rem;
+		padding-bottom: 3rem;
 	}
 
 	.profile {
 		justify-content: center;
+		align-content: center;
 		max-width: 30% !important;
-		Width: 18% !important;
+		Width: 23% !important;
 		Height: auto !important;
 		margin: 5rem !important;
 	
 	}
 	
 	.abouttext {
-		Width: 70%;
-		font-size: 32px;
+		justify-content: center;
+		align-content: center;
+		Width: 60%;
+		font-size: 25px;
 		margin-right: 5px;
 		letter-spacing: 5px;
 	}

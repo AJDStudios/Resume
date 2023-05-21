@@ -1,6 +1,13 @@
 # Resume
 A modern CV for frontend software engineer
 
+                                                    --return 21/05/23--
+Though I can certainly do this again better now, first, I'll update this as a fallback for if/when I decide to change roles. 
+    - Update portfolio to include current role.
+    - probably change the image in about me.
+    - plan a redesign using a more complicated stack.                                                    
+
+                                                    --initial build - notes --
 languages and scripts used
     - HTML/CSS/Javascript as standard (pure javascript became redundant under JSX - but file still exists).
     - Python as an interactive iteration (now saved as separate project).
@@ -14,13 +21,11 @@ Core features
           - Most features added with the mindset "what would you see on a shop website"?
           - Built with the potential for growth and easy-implementation of new features.   
 
-Reflections from the project
-    - I originally went into this with the mindset "I'll see what I can do". This was fine and I practiced a lot, but after I put the design I wanted on paper and pursued that design, 
-    not knowing how to do much of it. I can safely say this will always be the approach going forward "Have an idea, make that work", not build an idea on what I know works. 
-    - Now that I'm on the seventh iteration of this (1 - Html/css only, 2/3 -with javascript, 4 - game dev style through python, 5/6- flask and now 7- React.) I do not regret making any of these iterations, 
-    in fact I'm proud that I managed to make each design work.
-    - I started with a mobile first mindset that I lost track of that somewhere in the React transition. I can certainly say mobile-first using media-queries to add complexity is a more 
-    sensible approach, but "don't get it right, get it written" took over. I have a decision now, rebuild the CSS with mobile-first in mind, or refine what I have. 
+Reflections from the project (2022)
+    - I originally went into this with the mindset "I'll see what I can do". This was fine and I practiced a lot, but after I put the design I wanted on paper and pursued that design, not knowing how to do much of it. 
+    I can safely say this will always be the approach going forward "Have an idea, make that work", not build an idea on what I know works. 
+    - Now that I'm on the seventh iteration of this (1 - Html/css only, 2/3 -with javascript, 4 - game dev style through python, 5/6- flask and now 7- React.) I do not regret making any of these iterations, in fact I'm proud that I managed to make each design work.
+    - I started with a mobile first mindset but I lost track of that somewhere in the React transition. I can certainly say mobile-first using media-queries to add complexity is a more sensible approach, but "don't get it right, get it written" took over. I have a decision now, rebuild the CSS with mobile-first in mind, or refine what I have. 
     - The next project will follow a mobile-first mindset, however. 
     - I've been slow. That makes me a little self-conscious, but I have to keep in mind that I'm working full-time as well, and I have to switch between mindsets for both jobs. 
     - Mostly, I'm glad I dropped only a couple of planned features (which I can always re-add) I didn't shy away from the unknown, and I gained more from that, than anything else. 
@@ -29,9 +34,8 @@ Designing the current iteration (flask origin - to React) block by block
  - first block was the nav bar (without links) made with Html, CSS and Javascript for the original "hamburger" - now replaced this with a FaIcon mostly for the sake of simplicity.
  - second block was actually the top block (I moved this back below the navbar) - animated splash with my name and job aspired to.
  - Third block was the about section. Originally, I planned to add an easter-egg to the image on this page, I will look into this when everything is functional.
- - added a dark/light mode toggle (later broke this on transition) using javascript.
- - added the relevant needed templates, need to change the routing of "/" on the live version - seems to me I need to buy a domain to make this work, I might be wrong, but as a result, 
- this is no longer a priority. 
+ - added a dark/light mode toggle (later broke this on transition, haven't assigned time to fix it since) using javascript.
+ - added the relevant needed templates, need to change the routing of "/" on the live version - seems to me I need to buy a domain to make this work, I might be wrong, but as a result, this is no longer a priority. 
  - animated the portfolio head - this typewriter effect was created four different ways, each time it worked. Javascript, python (2 variants) and now JSX.
  - laid the groundwork for a couple easter eggs - only found if you check the code or try fairly basic functionality. (this was removed again on the transition to react, I haven't decided whether or not to add these again.) 
  - imported some portfolio pieces as statics. Over time these were almost all converted to webP and webM format. 
@@ -58,7 +62,7 @@ Designing the current iteration (flask origin - to React) block by block
  - Added static contact info
  - custom icon added
  - Cleaned up CSS for Contact
- - As a lot of what I did in JS originally is different in React, the JS file is still available in the repository commented out for reference. 
+ - As a lot of what I did in JS originally is different in React, the JS file is still available in the repository commented out for reference. (not best practice, but this was an early design)
  - All hero animations done. 
  - Carousel works again
  - converted images and videos to WebP and WebM files.
@@ -102,7 +106,8 @@ Designing the current iteration (flask origin - to React) block by block
             - light and dark toggle []
             - final commit []
             - redeploy []
-            
+                                                     -- Started work as dev 14/12/22 --
+                                                            
                                                             -- Potential Extra Features  --
             - Switch to a custom domain (not a priority as I see it - functionality first) []                                   
             - search bar (will tackle this elsewhere, but maybe transfer afterwards) []
