@@ -8,7 +8,6 @@ import sonny from "./images/sonny.webp";
 import youngjo from "./images/youngjo.webp";
 import teenjo from "./images/teenjo.webp";
 import fravashijolana from "./images/fravashijolana.webp";
-import fravashiad from "./images/fravashiad.webp";
 
 export const images = [
     { 
@@ -41,7 +40,4 @@ export const images = [
     { 
         img: fravashijolana
     },
-    { 
-        img: fravashiad
-    },            
 ];
